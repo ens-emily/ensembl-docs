@@ -1,6 +1,6 @@
 # Automatic annotation using RNA-seq data
 
-(Diagram of RNA-seq annotation)
+![RNA-seq Genebuild flowchart](rnaseq.png "RNA-seq Genebuild flowchart")
 
 * For each tissue or individual, the raw reads are aligned to the genome using [BWA](http://bio-bwa.sourceforge.net/). This step allows us to quickly identify regions of the genome that are actively transcribed. We use the results from all tissues to create one set of alignment blocks roughly corresponding to exons.
 
