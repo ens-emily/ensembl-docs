@@ -15,4 +15,4 @@ A merged, or golden, gene indicates that annotation was provided by both Ensembl
 
 For human and mouse, this combined Ensembl/HAVANA gene set is the default gene set from the [GENCODE project](https://www.gencodegenes.org/). For both human and mouse, we also guarantee that all transcripts from the Consensus Coding Sequence (CCDS) set are present in the GENCODE gene set.
 
-The complete GENCODE gene set for human and mouse can be viewed on our website in the GENCODE Comprehensive track. A subset of these transcript models are tagged as being in the [GENCODE Basic](link to transcript tags page) set, which is also available on our website.
+The complete GENCODE gene set for human and mouse can be viewed on our website in the GENCODE Comprehensive track. A subset of these transcript models are tagged as being in the [GENCODE Basic](transcript_quality_tags.md) set, which is also available on our website.
