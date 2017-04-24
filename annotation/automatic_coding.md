@@ -2,7 +2,7 @@
 
 There are several steps in the annotation of coding genes onto [repeat-masked genomes](assembly_repeats.md). These steps are summarised in the following diagram and described in detail below:
 
-(Flow-chart)
+![Genebuild flowchart](automatic.png "Genebuild flowchart")
 
 * The first stage of the Ensembl annotation process is known as the Targeted stage. Here, species-specific proteins are aligned to the genome and Genewise and/or Exonerate is used to build a transcript structure for the protein on the genome.
 
