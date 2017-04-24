@@ -1,0 +1,20 @@
+# Genome assemblies
+
+A genome assembly is a computational representation of a genome sequence. Because we are not able to sequence along the complete length of a chromosome, each chromosome assembly is made up of short stretches of sequenced DNA pasted together. This always creates some gaps and errors. Some assemblies are made up of sequences from multiple individuals (such as human), while some from a single individual (such as cat), however each section of sequence comes from one individual. This means that any region may contain alleles that are rare or even private to that individual.
+
+Ensembl does not produce genome assemblies, instead we provide annotation on genome assemblies that have been deposited into the [INSDC]((http://www.ebi.ac.uk/ena)) (GenBank, ENA, DDBJ) and are publicly available. We select species to annotate on a case-by-case basis according to a number of factors such as: phylogenetic position, assembly quality, model organism, availability of species-specific sequence data (eg. RNA-seq), additional funding. For some species, more than one genome assembly has been produced. Ensembl, NCBI and UCSC make a joint decision on which assembly to annotate, in consultation with the species community where possible.
+
+Find out more about how genome assemblies are put together and how we use them in Ensembl:
+* [Chromosomes, scaffolds and contigs.](chromosomes_scaffolds_contigs.md)
+* [Repeats.](assembly_repeats.md)
+* [Haplotypes and patches.](haplotypes_patches.md)
+* [Pseudoautosomal regions in human.](human_PARs.md)
+* [Gene annotation in Ensembl.](annotation_landing.md)
+
+## Genome Browser agreement
+
+The [Genome Browser Agreement](http://www.ensembl.org/info/about/legal/browser_agreement.html) has been in place for a number of years, and it establishes the minimum requirements for public display of genome data by the Ensembl, NCBI and UCSC browsers/annotation groups.
+
+For species that have been annotated since the Genome Browser agreement, all genome assemblies have been assigned a unique Genome Collections Accession (GCA). This accession identifies the genome assembly version for a species and the version is incremented each time any change is made to the sequence data. To know whether the assembly that you're viewing in Ensembl is the same as the assembly in another genome browser, compare the Genome Collections Accession found on the species home page.
+
+We provide links on our Location pages (eg. Region in detail) to the equivalent region in NCBI and UCSC. With the increasing use of big data file formats eg. BAM, it is important to have consistent genomic coordinates across the genome browsers. This allows users to attach and view their files in any genome browser. A number of genome assemblies in Ensembl were annotated prior to the Genome Browser Agreement. These genome assemblies may not be equivalent to assemblies for the same species in other genome browsers.
