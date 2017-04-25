@@ -15,4 +15,4 @@ Minor assembly releases have the following naming convention: GRCm38.p3 for the 
 
 In Ensembl, we display the primary assembly for all species as default. This means that our chromosome coordinates for human and mouse will match those on other genome browsers for the same major assembly release. The alternate loci are displayed alongside the primary assembly, allowing their annotation to be viewed and compared to the primary.
 
-Video: Patches and haplotypes in the human genome
+<iframe  title="Haplotype video" width="480" height="390" src="https://www.youtube.com/watch?v=sPE9j_Hw9HU&ab_channel=EnsemblHelpdesk" frameborder="0" allowfullscreen></iframe>
