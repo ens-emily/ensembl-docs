@@ -8,7 +8,7 @@ Ensembl transcripts displayed on our website are products of the Ensembl automat
 
 An Ensembl gene (with a unique ENSG... ID) includes any spliced transcripts (ENST...) with overlapping coding sequence, with the exception of manually annotated readthrough genes which are annotated as a separate locus. Transcripts from the Ensembl annotation process, the Havana/Vega set and the Consensus Coding Sequence (CCDS project) set may all be clustered into the same gene. Transcripts that belong to the same gene ID may differ in transcription start and end sites, splice events and exons, and can give rise to very different proteins. Transcript clusters with no overlapping coding sequence are annotated as separate genes. Two transcripts may overlap in non-coding sequence (ie intronic sequence or UnTranslated Region (UTR), and be classified under two separate genes. After the Ensembl gene and transcript sequences are defined, the gene and transcript names are assigned.
 
-The iamge below shows a cartoon of a gene ("GENE") with five transcripts, some coding (red) and non-coding (blue).
+The image below shows a cartoon of a gene ("GENE") with five transcripts, some coding (red) and non-coding (blue).
 
 ![Cartoon of a gene in Ensembl](gene.png "Cartoon of a gene in Ensembl")
 
