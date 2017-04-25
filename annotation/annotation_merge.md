@@ -11,7 +11,7 @@ Where manual curation is available for a transcript, the Ensembl and HAVANA tran
 
 A merged, or golden, gene indicates that annotation was provided by both Ensembl and HAVANA. A merged gene will either contain at least one merged transcript model, or it will contain unmerged transcripts from both Ensembl and HAVANA. Where a transcript model is annotated only by Ensembl or HAVANA, it will be displayed as an unmerged (red) model.
 
-##GENCODE
+## GENCODE
 
 For human and mouse, this combined Ensembl/HAVANA gene set is the default gene set from the [GENCODE project](https://www.gencodegenes.org/). For both human and mouse, we also guarantee that all transcripts from the Consensus Coding Sequence (CCDS) set are present in the GENCODE gene set.
 
