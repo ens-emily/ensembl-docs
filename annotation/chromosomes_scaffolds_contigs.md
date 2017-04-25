@@ -2,8 +2,6 @@
 
 Genome assemblies are hierarchical. The shortest assembly components are contigs, which are sequences taken from individuals. Contigs are assembled into longer scaffolds, and scaffolds are assembled into chromosomes if there is sufficient mapping information. Many genome assemblies have only been assembled to the scaffold level.
 
-[image of contigs coming together to make scaffolds and chromosomes]
-
 Scaffolds are classified in three ways:
 
 * **Placed scaffolds**: the scaffolds have been placed within a chromosome.
