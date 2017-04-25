@@ -15,9 +15,9 @@ Ensembl coding transcripts are based on mRNA and protein from the following data
 
 | Source | About |
 | --- | --- |
-| [RFAM](http://rfam.xfam.org/) |  |
-| [miRBase](http://www.mirbase.org/) | |
-| [tRNAscan-SE](http://lowelab.ucsc.edu/tRNAscan-SE/) | |
+| [RFAM](http://rfam.xfam.org/) | Rfam is a database of RNA families, maintains at the [EMBL-EBI](http://www.ebi.ac.uk/). |
+| [miRBase](http://www.mirbase.org/) | miRBase curates submitted miRNA sequences, including the miRNA transcript and predicted hairpin precursor. |
+| [tRNAscan-SE](http://lowelab.ucsc.edu/tRNAscan-SE/) | An algorithm for predicting tRNA sequences within genomic sequence. |
 
 ## Gene Status
 
