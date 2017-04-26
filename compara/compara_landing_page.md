@@ -3,7 +3,7 @@
 Ensembl Compara provides cross-species resources and analyses, at both the sequence level and the gene level.
 
 
-## Gene-based resources
+## Gene analyses
 
 All Ensembl gene sequences are compared to one another in order to produce gene trees, infer homologues and produce gene families. These processes are different for coding and non-coding genes.
 
@@ -14,29 +14,15 @@ All Ensembl gene sequences are compared to one another in order to produce gene 
 * [Gene tree stable IDs](gene_tree_stable_id.md)
 
 
-## Sequence-based resources
+## Genome analyses
 
-Whole genome alignments
+Whole genome alignments are produced, both pairwise alignments and multiple alignments. From these we calculate ancestral sequences, when bases were fixed, conservation scores, constrained elements and syntenies.
 
-Sometimes abbreviated as WGA, they are performed either pairwise between two species, or using multiple species. Pairwise alignments are based on lastZ-net (although we have not recomputed all the previous BlastZ-net). In the past, we also generated translated-Blat alignments. Multiple alignments are mainly based on the EPO pipeline (extended to include fragmented genomes) and Mercator/Pecan. More information →
-
-Following is the list of additional analysis that are applied on the whole-genome alignments:
-
-Ancestral sequences
-
-From the multiple alignments performed with the EPO pipeline, we can predict ancestral sequences for a number of ancestral taxa. More information →
-
-Age of Base (Beta)
-
-In turn, from these ancestral events, we estimate when mutation events occurred along the species tree. This experimental track is currently computed only for substitutions along the human lineage. More information →
-
-Conservation scores and constrained elements
-
-Additionally we use Gerp (Cooper GM et al., Genome Res., 2005; 15:901-913) to calculate conservation scores and call constrained elements on the Mercator/Pecan and EPO-2X multiple alignments. Conservation scores are estimated on a column-by-column basis. Constrained elements are stretches of the multiple alignment where the sequences are highly conserved according to the previous score.
-
-Syntenies
-
-Finally, we can derive synteny mappings from the pairwise alignments of species whose genome assembly is not too fragmented. More information →
+* [Pairwise alignments](pairwise_genome_alignments.md)
+* [Multiple alignments](multiple_genome_alignments.md)
+* [Ancestral sequences](ancestral_sequences.md)
+* [Conservation scores and constrained elements](conservation_and_constrained.md)
+* [Synteny](synteny.md)
 
 
 
