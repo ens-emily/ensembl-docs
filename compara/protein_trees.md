@@ -12,14 +12,14 @@ The gene orthology and paralogy prediction pipeline has eight basic steps:
 
 1. Load a [representative translation](http://www.ensembl.org/Help/Glossary?id=346) of each gene from all species used in Ensembl. We currently choose the longest translation annotated by the CCDS project, if any, or the longest protein-coding translation otherwise.
 2. run [NCBI Blast+1](http://europepmc.org/abstract/MED/20003500) (refined with SmithWaterman) on every gene against every other (both self and non-self species) in a genome-wise manner. We use the version 2.2.28, with the parameters: -seg no -max_hsps_per_subject 1 -use_sw_tback -num_threads 1.
-3. Build a sparse graph of gene relations based on Blast e-values and generate clusters using [hcluster_sg2](https://sourceforge.net/p/treesoft/code/HEAD/tree/). Hcluster_sg has a little insight about the phylogeny of the species (namely: a list of outgroup species), which helps defining pertinent clusters for the ingroup species. We use yeast (Saccharomyces cerevisiae) as an outgroup (via the -C option) and the following command line arguments: -m 750 -w 0 -s 0.34 -O.
+3. Build a sparse graph of gene relations based on Blast e-values and generate clusters using [hcluster_sg2](https://sourceforge.net/p/treesoft/code/HEAD/tree/). Hcluster_sg has a little insight about the phylogeny of the species (namely: a list of outgroup species), which helps defining pertinent clusters for the ingroup species. We use yeast (Saccharomyces cerevisiae) as an outgroup (via the -C option) and the following command line arguments: -m 750 -w 0 -s 0.34 -O. See below for more details.
 4. For each cluster, build a multiple alignment based on the protein sequences using either a combination of multiple aligners, consensified by [M-Coffee3](http://www.tcoffee.org/Projects/mcoffee/) or [Mafft4](http://mafft.cbrc.jp/alignment/software/) when the cluster is too large, or MCoffee is too long. We use the version 9.03.r1318 of M-Coffee, with the aligner set: mafftgins_msa, muscle_msa, kalign_msa, t_coffee_msa, and the Mafft version 7.113 with the command line options: --auto.
-5. For each aligned cluster, build a phylogenetic tree using [TreeBeST5](https://github.com/Ensembl/treebest) using the CDS back-translation of the protein multiple alignment from the original DNA sequences. A rooted tree with internal duplication tags is obtained at this stage, reconciling it against a species tree inferred from the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy).
+5. For each aligned cluster, build a phylogenetic tree using [TreeBeST5](https://github.com/Ensembl/treebest) using the CDS back-translation of the protein multiple alignment from the original DNA sequences. A rooted tree with internal duplication tags is obtained at this stage, reconciling it against a species tree inferred from the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy). See below for more details.
 6. From each gene tree, infer gene pairwise relations of orthology and paralogy types.
 7. A [stable ID](gene_tree_stable_id.md] is assigned to each GeneTree.
 8. There is an extra optional step which calculates the dN/dS values for the orthology relationships of closely related pairs of species, using [codeml6](http://abacus.gene.ucl.ac.uk/software/paml.html) with the parameters found in ensembl-compara/scripts/homology/codeml.ctl.hash.
 
-## Clustering
+### Clustering
 
 hcluster_sg2 performs hierarchical clustering under mean distance. It reads an input file that describes the similarity between two sequences, and groups two nearest nodes at each step. When two nodes are joined, the distance between the joined node and all the other nodes are updated by mean distance. This procedure is iterated until one of the three rules is met:
 
@@ -29,7 +29,7 @@ hcluster_sg2 performs hierarchical clustering under mean distance. It reads an i
 
 Hcluster_sg also introduces an additional edge breaking rule: removes an edge between cluster A and B if the number of edges between A and B is smaller than |A|*|B|/10. This heuristic rule removes weak relations which are quite unlikely to be joined at a later step.
 
-## Tree building
+### Tree building
 
 The CDS back-translated protein alignment (i.e., codon alignment) is used to build 5 different trees (within TreeBeST5):
 
