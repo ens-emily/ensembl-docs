@@ -1,9 +1,9 @@
-Comparative Genomics
+# Comparative Genomics
 
-Ensembl Compara provides cross-species resources and analyses, at both the sequence level and the gene level. These resources are described in more details in Herrero et al., Database, 2016.
+Ensembl Compara provides cross-species resources and analyses, at both the sequence level and the gene level.
 
 
-Gene-based resources
+## Gene-based resources
 
 We automatically integrate the gene annotations produced by the Ensembl genebuild team across all the species.
 
@@ -24,7 +24,7 @@ ncRNA trees can be naturally mapped across releases using their RFAM identifier.
 
 
 
-Sequence-based resources
+## Sequence-based resources
 
 Whole genome alignments
 
@@ -50,7 +50,7 @@ Finally, we can derive synteny mappings from the pairwise alignments of species 
 
 
 
-Species tree
+## Species tree
 
 The Compara pipelines use various species trees.
 
@@ -61,7 +61,7 @@ The Alignment pipelines follow a binary species tree that is maintained in-house
 The Constrained Elements / Conservation Scores pipelines need branch lengths, and we compute branch lengths for 4 sub-trees of the previous tree by running phyloFit (part of the PHAST package) on our multiple alignments (see above). They are available in Newick format on GitHub: mammals, sauropsids, amniotes, fish.
 
 
-Access
+## Access
 
 Data can be accessed using the Compara Perl API, BioMart, or comparative genomics pages on the browser. Gene trees can be viewed from any 'Gene' page on the browser, and exported via the control panel and the Jalview plug-in in the pop-ups that appear when clicking on any part of the tree.
 
