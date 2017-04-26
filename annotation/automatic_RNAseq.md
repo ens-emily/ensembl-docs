@@ -21,6 +21,36 @@
 | Zebrafish | paired end Illumina RNASeq data from the Wellcome Trust Sanger Institute Zebrafish Transcriptome Sequencing Project |
 (etc)
 
+Anolis carolinensis
+Astyanax mexicanus
+Canis familiaris
+Chlorocebus sabaeus
+Danio rerio
+Dasypus novemcinctus
+Felis catus
+Ficedula albicollis
+Gallus gallus
+Homo sapiens
+Lepisosteus oculatus
+Macaca mulatta
+Microcebus murinus
+Monodelphis domestica
+Mus musculus
+Mustela putorius
+Nomascus leucogenys
+Oreochromis niloticus
+Ornithorhynchus anatinus
+Oryctolagus cuniculus
+Ovis aries
+Pan troglodytes
+Papio anubis
+Pelodiscus sinensis
+Poecilia formosa
+Pongo abelii
+Rattus norvegicus
+Sus scrofa
+Xiphophorus maculatus
+
 ## References
 
 http://genome.cshlp.org/content/22/10/2067.long
