@@ -5,23 +5,13 @@ Ensembl Compara provides cross-species resources and analyses, at both the seque
 
 ## Gene-based resources
 
-We automatically integrate the gene annotations produced by the Ensembl genebuild team across all the species.
+All Ensembl gene sequences are compared to one another in order to produce gene trees, infer homologues and produce gene families. These processes are different for coding and non-coding genes.
 
-Phylogenetic trees
-
-We compute phylogenetic trees across the whole set of protein-coding genes with one pipeline, and ncRNA genes with another. They both result in a set of trees that are visualized and accessed the exact same way. From both set of gene trees, we extract homologues (orthologues and paralogues). We also analyze the gene gain and loss events using the CAFE software.
-
-Protein trees are constructed using a representative protein for every gene in Ensembl: proteins are clustered using hcluster_sg based on NCBI BLAST+ e-values, and each cluster of proteins is aligned using M-Coffee or Mafft. Finally, TreeBeST is used to produce a gene tree from each multiple alignment, reconciling it with the species tree to call duplication events. More information → Tree statistics →
-ncRNA trees are constructed using gene families represented in RFAM, for which a specific covariance model is provided. For each gene family, we build several trees using secondary structure alignments with INFERNAL and genomic alignments with PRANK. All the trees are merged into a final tree using TreeBeST. More information → Tree statistics →
-TreeFam Families
-
-We also extend our gene-based resources to the whole set of Metazoan proteins from UniProtKB SwissProt and SPTREMBL in a resource named TreeFam Families. Briefly, the pipeline classifies all Ensembl proteins (potentially several per gene) and the above-mentionned set of UniProt proteins against the TreeFam HMM library. Clusters are then aligned with Mafft. More information →
-
-Stable ID mapping
-
-Ensembl Families and Protein Trees undergo a step of stable IDs mapping, that allows one to track the update of a tree or a family across releases. Please note that the mapping exclusively relates to the content, and not to the actual conservation of the alignment or tree topology. More information →. 
-ncRNA trees can be naturally mapped across releases using their RFAM identifier.
-
+* [Protein trees and homologues](protein_trees_and_homologues.md)
+* [ncRNA trees and homologues](ncRNA_trees_and_homologues.md)
+* [Gene families](gene_families.md)
+* [Orthologue quality scores](orthology_quality_controls.md)
+* [Gene tree stable IDs](gene_tree_stable_id.md)
 
 
 ## Sequence-based resources
