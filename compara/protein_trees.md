@@ -31,7 +31,7 @@ Hcluster_sg also introduces an additional edge breaking rule: removes an edge be
 
 ### Tree building
 
-The CDS back-translated protein alignment (i.e., codon alignment) is used to build 5 different trees (within TreeBeST5):
+The CDS back-translated protein alignment (i.e., codon alignment) is used to build five different trees (within TreeBeST5):
 
 1. a maximum likelihood (ML) tree built, based on the protein alignment with the WAG model, which takes into the account the species tree
 2. a ML tree built using phyml, based on the codon alignment with the Hasegawa-Kishino-Yano (HKY) model, also taking into account the species tree
@@ -41,13 +41,12 @@ The CDS back-translated protein alignment (i.e., codon alignment) is used to bui
 
 For (1) and (2), TreeBeST uses a modified version of phyml release 2.4.5 which takes an input species tree, and tries to build a gene tree that is consistent with the topology of the species tree. This "species-guided" phyml uses the original phyml tree-search code. However, the objective function maximised during the tree-search is multiplied by an extra likelihood factor not found in the original phyml. This extra likelihood factor reflects the number of duplications and losses inferred in a gene tree, given the topology of the species tree. The species-guided phyml allows the gene tree to have a topology that is inconsistent with the species tree if the alignment strongly supports this. The species tree is based on the NCBI taxonomy tree (subject to some modifications depending on new datasets).
 
-The final tree is made by merging the five trees into one consensus tree using the "tree merging" algorithm. This allows TreeBeST to take advantage of the fact that DNA-based trees often are more accurate for closely related parts of trees and protein-based trees for distant relationships, and that a group of algorithms may outperform others under certain scenarios. The algorithm simultaneously merges the five input trees into a consensus tree. The consensus topology contains clades found in any of the input trees, where the clades chosen are those that minimize the number of duplications and losses inferred, and have the highest bootstrap support. Branch lengths are estimated for the final consensus tree based on the DNA alignment, using phyml with the HKY model.
-
+The final tree is made by merging the five trees into one consensus tree using the "tree merging" algorithm. This allows TreeBeST to take advantage of the fact that DNA-based trees often are more accurate for closely related parts of trees and protein-based trees for distant relationships, and that a group of algorithms may outperform others under certain scenarios. The algorithm simultaneously merges the five input trees into a consensus tree. The consensus topology contains clades found in any of the input trees, where the clades chosen are those that minimise the number of duplications and losses inferred, and have the highest bootstrap support. Branch lengths are estimated for the final consensus tree based on the DNA alignment, using phyml with the HKY model.
 
 ## dN/dS estimations
 
-We only calculate these dN/dS values for high-coverage closely-related pairs of species, using codeml from the PAML package6. When the species evolutionary distance is too large, the saturation of the dS values biases the estimated dN/dS ratio. When the dS value of a given orthologue gene pair is too large, we mask out the dN/dS ratio, although the N, S, dN, dS and log-likelihood (lnL) values can still be obtained for all pairs.
+We only calculate these dN/dS values for high-coverage closely-related pairs of species, using [codeml from the PAML package6](http://abacus.gene.ucl.ac.uk/software/paml.html). When the species evolutionary distance is too large, the saturation of the dS values biases the estimated dN/dS ratio. When the dS value of a given orthologue gene pair is too large, we mask out the dN/dS ratio, although the N, S, dN, dS and log-likelihood (lnL) values can still be obtained for all pairs.
 
-## Notes and References
+## References
 
 [EnsemblCompara GeneTrees: Analysis of complete, duplication aware phylogenetic trees in vertebrates. Vilella AJ, Severin J, Ureta-Vidal A, Durbin R, Heng L, Birney E. Genome Research 2008 Nov 4.](http://europepmc.org/articles/PMC2652215)
