@@ -40,6 +40,6 @@ Such cases can be the results of real duplications followed by gene losses (as s
 
 A paralogue labelled as a gene_split is an artefactual type of paralogy. It is commonly related to fragmented genome assemblies or a gene prediction that is poor in supporting evidences (cDNA, ESTs, proteins, etc.). Right after building the multiple alignment, we detect pairs pairs of genes that lie close to each other (<1MB) in the same sequence region and the same strand (see GeneA1/GeneA2 below). They are forced to be paired in the gene trees under gene_split events, and represent our most confident set. When there is no (or little) overlap between the gene fragments in the same species and they lie in different sequence regions in the assembly (see GeneB1/GeneB2 in the image below), we let TreeBeST5 decide their best position in the tree. They are linked by duplication nodes, and have a lower confidence index. 
 
-![Gene split](http://www.ensembl.org/info/genome/compara/gene_split.png "Gene split"]
+![Gene split](http://www.ensembl.org/info/genome/compara/gene_split.png "Gene split")
 
 We carry a number of extra analyses to assess the quality of the orthology prediction, following external sources of evidence (local synteny, and whole-genome alignments). From there we are able to flag some orthologies as high-confidence. See this document for more information.
