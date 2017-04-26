@@ -19,7 +19,7 @@ All Ensembl gene sequences are compared to one another in order to produce gene 
 Whole genome alignments are produced, both pairwise alignments and multiple alignments. From these we calculate ancestral sequences, when bases were fixed, conservation scores, constrained elements and syntenies.
 
 * [Pairwise alignments](pairwise_genome_alignments.md)
-* [Multiple alignments](multiple_genome_alignments.md)
+* [Multiple alignments](multiple_genome_alignment.md)
 * [Ancestral sequences](ancestral_sequences.md)
 * [Conservation scores and constrained elements](conservation_and_constrained.md)
 * [Synteny](synteny.md)
