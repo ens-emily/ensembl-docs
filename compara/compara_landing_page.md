@@ -7,8 +7,9 @@ Ensembl Compara provides cross-species resources and analyses, at both the seque
 
 All Ensembl gene sequences are compared to one another in order to produce gene trees, infer homologues and produce gene families. These processes are different for coding and non-coding genes.
 
-* [Protein trees and homologues](protein_trees_and_homologues.md)
-* [ncRNA trees and homologues](ncRNA_trees_and_homologues.md)
+* [Protein trees](protein_trees.md)
+* [ncRNA trees](ncRNA_trees.md)
+* [Homology types](homology_types.md)
 * [Gene families](gene_families.md)
 * [Orthologue quality scores](orthology_quality_controls.md)
 * [Gene tree stable IDs](gene_tree_stable_id.md)
