@@ -15,7 +15,7 @@ The procedure to build the HMM library is described here:
   b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.
      
    As a result:  
-  a. 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
+  a. 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.  
   b. 2,098 TreeFam families remained after this filter.
 
 2. We classified all the available sequences (8,488,481) according to their scores to these HMM profiles using PantherScore.
