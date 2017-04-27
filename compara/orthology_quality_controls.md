@@ -2,7 +2,7 @@
 
 We have two methods to provide quality scores for orthologue pairs:
 * [Gene order conservation (GOC) score](#Gene_order_conservation_score)
-* [Whole genome alignment score](#Whole Genome Alignment score)
+* [Whole genome alignment score](#Whole_Genome_Alignment_score)
 
 These methods are completely indepenent of each other and of the orthology inference itself. The scores can be used to determine how likely it is that the orthologue pairs are real.
 
