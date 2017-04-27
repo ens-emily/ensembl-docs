@@ -11,11 +11,11 @@ The gene models used in this study come from the version 82 of Ensembl, and vers
 The procedure to build the HMM library is described here:
 
 1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:
-..1. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.
-..2. Classifying them against the 7,181 Panther 9 profiles with PantherScore.
-... As a result:
-..* 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
-..* 2,098 TreeFam families remained after this filter.
+  1. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.
+  2. Classifying them against the 7,181 Panther 9 profiles with PantherScore.
+   As a result:
+  * 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
+  * 2,098 TreeFam families remained after this filter.
 
 2. We classified all the available sequences (8,488,481) according to their scores to these HMM profiles using PantherScore.
 
@@ -28,20 +28,13 @@ The procedure to build the HMM library is described here:
 6. Sequences that did not match any of the profiles were then clustered together with [hcluster_sg](https://sourceforge.net/p/treesoft/code/HEAD/tree/) (a hierarchical clustering software for sparse graphs) using a blast all-vs-all approach (see the [Protein tree pipeline documentation](protein_trees.md)).
 
 7. Given the large number (404,108) of clusters we applied further filtering and quality-control checks. We used the following metrics and evaluated different thresholds:
-
-..a. Taxonomic coverage (ratio of taxa present in a particular HMM profile vs all the taxa in our species tree) for each member in all the clusters.
-
-..b. Minimum number of genes.
-
-..c. Minimum number of species.
-
-...Overall, filtering the clusters by the number of different species per family and per division turned out to be the clearest way of discarding very small clusters. We used these thresholds:
-
-..a. Clusters with at least 3 different species for protists division only.
-
-..b. Clusters with at least 5 different species for all other divisions.
-
-...Out of the 404,108 clusters, only 128,233 passed these filters, of which 34,119 come from Panther 9, 1,451 from Treefam 9.
+  a. Taxonomic coverage (ratio of taxa present in a particular HMM profile vs all the taxa in our species tree) for each member in all the clusters.
+  b. Minimum number of genes.
+  c. Minimum number of species.
+   Overall, filtering the clusters by the number of different species per family and per division turned out to be the clearest way of discarding very small clusters. We used these thresholds:
+  a. Clusters with at least 3 different species for protists division only.
+  b. Clusters with at least 5 different species for all other divisions.
+   Out of the 404,108 clusters, only 128,233 passed these filters, of which 34,119 come from Panther 9, 1,451 from Treefam 9.
 
 8. The new clusters (92,663) built with hcluster_sg that passed the filtering step were prefixed with TF6xxxxx in order to diferentiate them from previous TreeFam families.
 
