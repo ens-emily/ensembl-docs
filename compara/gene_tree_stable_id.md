@@ -1,14 +1,17 @@
-GeneTree stable ID in Compara
+# GeneTree stable IDs
 
-Introduction
+We provide stable IDs for gene trees. The IDs are kept from one release to the other depending on the genes present in the Gene Tree. In particular, we do not rely on the underlying alignment, the tree structure or the resulting homologues to assign stable IDs to GeneTrees.
 
-We provide Stable IDs for GeneTrees. The IDs are kept from one release to the other depending on the genes present in the Gene Tree. In particular, we do not rely on the underlying alignment, the tree structure or the resulting orthologs to assign stable IDs to GeneTrees.
+## Format
 
-Namespaces
+The format of the stable IDs is **ENSGTRRRRXXXXXXXXXX**:
+* **ENSGT** Indicates that this is an Ensembl gene tree ID.
+* **RRRR** corresponds to the Ensembl release number when the stable ID was first assigned.
+* **XXXXXXXXXX** is a unique number.
 
-The format of the Stable IDs is ENSGTRRRRXXXXXXXXXX respectively, where RRRR corresponds to the Ensembl release number when the stable ID was first assigned and XXXXXXXXXX is a number. For instance, ENSGT00560000077204 is a GeneTree first described in Ensembl 56.
+For instance, ENSGT00560000077204 is a gene tree first described in Ensembl 56.
 
-Stable ID mapping
+## Stable ID mapping
 
 This is a generic description of the Stable ID mapping algorithm. We use it to track stable IDs from release to release, but we also use it to match Ensembl GeneTrees to TreeFam entries.
 
@@ -42,7 +45,8 @@ A2 inherits the name from A1 according to the MAJORITY rule (light red contribut
 B2 inherits the name from B1 (pink contributor), and C1 name disappears in the new classification and it is merged into B2 (light green).
 Z1 is created from NEWBORN members
 Y1 is an example of NEWNAME (yellow contributor)
-Versioning
+
+## Versioning
 
 A version increase indicates that the SHARED members have changed for that class. The version is kept the same if it is an EXACT reuse case. For example, in the GeneTrees:
 
