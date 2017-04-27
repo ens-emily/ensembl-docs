@@ -9,7 +9,7 @@ All Ensembl gene sequences are compared to one another in order to produce gene 
 
 * [Protein trees](protein_trees.md)
 * [ncRNA trees](ncRNA_trees.md)
-* [Homology types](homology_types.md)
+* [Homologue types](homologue_types.md)
 * [Gene families](gene_families.md)
 * [Orthologue quality scores](orthology_quality_controls.md)
 * [Gene tree stable IDs](gene_tree_stable_id.md)
