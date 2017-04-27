@@ -11,12 +11,9 @@ The gene models used in this study come from the version 82 of Ensembl, and vers
 The procedure to build the HMM library is described here:
 
 1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:
-
-  a. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.
-  
-  b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.
-  
-   As a result:  
+  a. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.  
+  b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.  
+  As a result:  
   * 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
   * 2,098 TreeFam families remained after this filter.
 
