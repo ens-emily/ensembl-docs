@@ -43,11 +43,12 @@ The procedure to build the HMM library is described here:
 ## Statistics
 
 Total number of families before filtering:	404,108
+
 Total number of families after filtering:	128,233
 
 Breakdown by source and nomenclature:
 
-Panther v9:	34,119	PTHRxxxxx
-TreeFam v9:	8	TF1xxxxx
-1,443	TF3xxxxx
-New clusters:	92,663	TF6xxxxx
+* Panther v9:	34,119	PTHRxxxxx
+* TreeFam v9:	8	TF1xxxxx
+* 1,443	TF3xxxxx
+* New clusters:	92,663	TF6xxxxx
