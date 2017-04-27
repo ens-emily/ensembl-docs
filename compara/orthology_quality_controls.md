@@ -42,12 +42,13 @@ The whole genome alignment score calculates the coverage of the alignment over t
 ### Availability
 This pipeline on run on all LastZ and EPO alignments.
 
-High-confidence orthologies
+## High confidence orthologies
 
-We have defined for several taxonomic groups stringent thresholds to flag orthologies as high-confidence. For each pair of species, we select the thresholds corresponding to their most-recent common ancestor. To be flagged as high-confidence, a pair of orthologue must have a sufficient %identity, and have a GOC score or WGA coverage greater or equal to the threshold. If none of the latter two metrics are available for this pair of species, we fall back to the tree-compliance metric explained in this document.
+Orthologue pairs may be tagged as high confidence if they meet certain thresholds for these two measures as well as identity. The thresholds we use depend on the most-recent common ancestor of the species pair, according to the table below. The orthologue pair must satisfy all the criteria to be tagged as high confidence.
 
-Clades	Min. GOC score	Min. WGA score	Min. %identity
-Apes, Murinae	75	75	80
-Mammalia, Aves, Percomorpha	75	75	50
-Euteleostomi	50	50	25
-Others	No threshold used	No threshold used	25
+Clades | Min. GOC score | Min. WGA score | Min. %identity
+--- | --- | --- | ---
+Apes, Murinae | 75 | 75 | 80
+Mammalia, Aves, Percomorpha | 75 | 75 |50
+Euteleostomi | 50 | 50 | 25
+Others | No threshold used | No threshold used | 25
