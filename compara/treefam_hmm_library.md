@@ -10,7 +10,7 @@ The gene models used in this study come from the version 82 of Ensembl, and vers
 
 The procedure to build the HMM library is described here:
 
-1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:
+1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:  
   a. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.    
   b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.  
   As a result:  
@@ -27,7 +27,7 @@ The procedure to build the HMM library is described here:
 
 6. Sequences that did not match any of the profiles were then clustered together with [hcluster_sg](https://sourceforge.net/p/treesoft/code/HEAD/tree/) (a hierarchical clustering software for sparse graphs) using a blast all-vs-all approach (see the [Protein tree pipeline documentation](protein_trees.md)).
 
-7. Given the large number (404,108) of clusters we applied further filtering and quality-control checks. We used the following metrics and evaluated different thresholds:
+7. Given the large number (404,108) of clusters we applied further filtering and quality-control checks. We used the following metrics and evaluated different thresholds:  
   a. Taxonomic coverage (ratio of taxa present in a particular HMM profile vs all the taxa in our species tree) for each member in all the clusters.  
   b. Minimum number of genes.  
   c. Minimum number of species.  
