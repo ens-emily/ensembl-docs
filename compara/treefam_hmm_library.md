@@ -12,7 +12,8 @@ The procedure to build the HMM library is described here:
 
 1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:  
   a. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.    
-  b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.  
+  b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.
+  
   As a result:  
   a. 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
   b. 2,098 TreeFam families remained after this filter.
@@ -30,7 +31,8 @@ The procedure to build the HMM library is described here:
 7. Given the large number (404,108) of clusters we applied further filtering and quality-control checks. We used the following metrics and evaluated different thresholds:  
   a. Taxonomic coverage (ratio of taxa present in a particular HMM profile vs all the taxa in our species tree) for each member in all the clusters.  
   b. Minimum number of genes.  
-  c. Minimum number of species.  
+  c. Minimum number of species.
+  
    Overall, filtering the clusters by the number of different species per family and per division turned out to be the clearest way of discarding very small clusters. We used these thresholds:  
   a. Clusters with at least 3 different species for protists division only.  
   b. Clusters with at least 5 different species for all other divisions.  
