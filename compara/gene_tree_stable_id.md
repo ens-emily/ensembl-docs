@@ -13,22 +13,20 @@ For instance, ENSGT00560000077204 is a gene tree first described in Ensembl 56.
 
 ## Stable ID mapping
 
-This is a generic description of the Stable ID mapping algorithm. We use it to track stable IDs from release to release, but we also use it to match Ensembl GeneTrees to TreeFam entries.
+This is a generic description of the stable ID mapping algorithm. We use it to track stable IDs from release to release, but we also use it to match Ensembl gene trees to TreeFam entries.
 
-The algorithm takes two different classification schemes (i.e. Gene-Trees from the current release and Gene-Trees from the forthcoming one) over a given set of members. It is assumed that the classifications are somehow related, i.e. they tend to group members similarly. One is called "old" and the other "new", given an order of succession.
+The algorithm compares gene trees from the current release (old) to the gene trees from the forthcoming one (new). It is assumed that the new trees and old trees will tend to group proteins similarly. It does compares the proteins in the two trees using the Ensembl translation stable IDs.
 
-The comparison requires a common namespace for the members used in both classifications. The algorithm then infers how the names of the classes in two different classifications are related. To compare the Gene-Trees, we use the ENSEMBL translation stable_ids.
+When we compare old and new trees, there are three kinds of proteins:
+1. SHARED (the ones present in both trees).
+2. DISAPPEARING members (the ones present only in the old tree) - eg gene predictions or complete genomes that disappear in the next release.
+3. NEWBORN members (the ones present only in the new tree) - eg new gene predictions or new complete genomes in the next release
 
-With respect to the two given classifications, we have three kinds of members:
+The relationship between trees is inferred from the SHARED members, but the other two kinds are also counted by the algorithm.
 
-SHARED members (the ones present in both classifications)
-DISAPPEARING members (the ones present only in the "old" classification) - e.g. for the GeneTrees, gene predictions or complete genomes that disappear in the next release
-NEWBORN members (the ones present only in the "new" classification). - e.g. for the GeneTrees, new gene predictions or new complete genomes in the next release
-The relationship between classes is inferred from the SHARED members, but the other two kinds are also counted by the algorithm.
+The algorithm iterates through the new trees in the descending order of their sizes, trying to reuse the ID of one of the old trees from where the SHARED members come. When an ID is found that has not yet been used, it is assigned to the new class.
 
-The algorithm iterates through the "new" classes in the descending order of their sizes, trying to reuse a name of one of the "old" classes from where the SHARED members come to the "new" class, and make it the name of the "new" class, if it has not been taken yet.
-
-If 100% SHARED members of the "old" class become 100% SHARED members of the new class, we call this case an EXACT reuse. If there was only one SHARED member, we call it an EXACT_o for "orphan".
+If 100% SHARED members of the old tree become 100% SHARED members of the new tree, we call this case an EXACT reuse. If there was only one SHARED member, we call it an EXACT_o for "orphan".
 
 Otherwise we have a split/join situation and iterate through the "contributors" (the "old" classes from which the SHARED members come from) in the decreasing order of the sizes of the shared parts. This ordering ensures that both in cases of joins and splits we are reusing the name of the biggest contributor.
 
@@ -38,7 +36,7 @@ If a name could not have been reused, because all the "old" contributor's names 
 Finally, if we have a "new" class that only contains NEWBORN members (meaning there were no "old" classes to reuse the names from), a new name is also generated, but this is a NEWFAM case. If the new class has only one (NEWBORN) member, it is a NEWFAM_o case.
 In this example diagram:
 
-stable_id_mapping
+![Stable ID mapping}(http://www.ensembl.org/info/genome/compara/compara_stable_id_mapping.png "Stable ID mapping")
 
 D1 is an EXACT reuse (cyan contributor)
 A2 inherits the name from A1 according to the MAJORITY rule (light red contributor)
