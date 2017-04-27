@@ -1,4 +1,4 @@
-# Orthology quality-controls
+# Orthology quality controls
 
 We have two methods to provide quality scores for orthologue pairs:
 * [Gene order conservation (GOC) score](#Gene_order_conservation_score)
@@ -19,28 +19,27 @@ The gene order conservation (GOC) score indicates how many of the four closest n
 6. Now we have two GOC scores for each other. We currently report the maximum of these scores
 
 ### Example comparison
-![Example comparison](http://www.ensembl.org/info/genome/compara/ortholog_qc_goc_thumb.png "Example comparison")
+![Example GOC comparison](http://www.ensembl.org/info/genome/compara/ortholog_qc_goc_thumb.png "Example GOC comparison")
 
 Of the four neighbouring genes, three are orthologues and in conserved order and position, resulting in a GOC score of 75%.
 
 ### Availability
 This pipeline on run on all bony vertebrates (Euteleostomi)
 
-## Whole Genome Alignment score
+## Whole genome alignment score
 
-We assume that genes which are orthologous to each other will fall within genomic regions that can be aligned to one another.
+We assume that genes which are orthologous to each other will fall within genomic regions that can be aligned to one another. Since we calculate [pairwise whole genome alignments](pairwise_genome_alignments.md), we can use these to check the regions surrounding orthologues.
 
-The pipeline that focuses on the nucleotide level mutations generates the whole genome alignment (WGA) score. It assumes that high-quality “true” orthologs should be well aligned to each other. This approach is based on the nucleotide level differences, taking advantage of the wealth of alignment information available through EnsEMBL’s comparative genetics analyses.
+The whole genome alignment score calculates the coverage of the alignment over the orthologue pair, as follows:
+1. Exon boundaries are fetched for all genes in all species of interest.
+2. The species are paired off and all alignments between each pair are detected. All predicted orthologues between the pair are fetched.
+3. The coverage over each member of the orthology is calculated using every available alignment. Coverage over exons is regarded as a higher importance than intronic regions, so a weighted score is generated. The score takes the coverage over exons as a base, with bonus points given for coverage over the introns (normalised by the proportion of intronic sequence in the gene).
+4. An overall score for the homology prediction, as a whole, is computed. This can be defined as the maximum score, after the score for the pair of genes has been averaged for each alignment i.e. we report the average score for the greatest-coverage alignment.
 
-The main steps of this WGA pipeline are:
-First, as the coverage over exonic regions is taken into account by this pipeline, exon boundaries are fetched for all genes in all species of interest. These are stored in a local table for efficiency gains later
-Next, the species are paired off and all alignments between each pair are detected. All predicted orthologs between the pair are fetched and batched (default = 10)
-The coverage over each member of the orthology is calculated using every available alignment. Coverage over exons is regarded as a higher importance than intronic regions, so a weighted score is generated. The score takes the coverage over exons as a base, with bonus points given for coverage over the introns (normalized by the proportion of intronic sequence in the gene). Scores for every alignment over both genes is stored in an intermediate table
-Finally, an overall score for the homology prediction, as a whole is computed. This can be defined as the maximum score, after the score for the pair of genes has been averaged for each alignment i.e. we report the average score for the greatest-coverage alignment
-Example comparison
+### Example comparison
+![Example WGA comparison](http://www.ensembl.org/info/genome/compara/ortholog_qc_wga_thumb.png "Example WGA comparison")
 
-ortholog_qc_wga
-Availability
+### Availability
 This pipeline on run on all LastZ and EPO alignments.
 
 High-confidence orthologies
