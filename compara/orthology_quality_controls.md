@@ -46,7 +46,7 @@ This pipeline on run on all LastZ and EPO alignments.
 
 Orthologue pairs may be tagged as high confidence if they meet certain thresholds for these two measures as well as identity. The thresholds we use depend on the most-recent common ancestor of the species pair, according to the table below. The orthologue pair must satisfy all the criteria to be tagged as high confidence.
 
-Clades | Min. GOC score | Min. WGA score | Min. %identity
+Clades | GOC score threshold | WGA score threshold | % identity threshold
 --- | --- | --- | ---
 Apes, Murinae | 75 | 75 | 80
 Mammalia, Aves, Percomorpha | 75 | 75 |50
