@@ -13,9 +13,10 @@ The procedure to build the HMM library is described here:
 1. We first removed the redundancy between Panther 9 and TreeFam 9. This was done by:  
   a. Emitting consensus sequences from the 15,736 TreeFam 9 HMM profiles.    
   b. Classifying them against the 7,181 Panther 9 profiles with PantherScore.  
+  
   As a result:  
-  * 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
-  * 2,098 TreeFam families remained after this filter.
+  a. 13,638 TreeFam 9 families that had a hit on the Panther 9 profiles were discarded from the overall library.
+  b. 2,098 TreeFam families remained after this filter.
 
 2. We classified all the available sequences (8,488,481) according to their scores to these HMM profiles using PantherScore.
 
