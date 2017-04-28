@@ -10,7 +10,8 @@ Here is the list of all the pairwise comparisons that are available:
 
 [Table like]
 
- | Human | Mouse | Chimp | etc
+Species | Human | Mouse | Chimp | etc
+--- | --- | --- | --- | ---
 Human | [doc link] | [doc link] | [doc link] | etc
 Mouse | [doc link] | [doc link] | [doc link] | etc
 Chimp | [doc link] | [doc link] | [doc link] | etc
