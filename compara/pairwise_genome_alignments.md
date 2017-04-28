@@ -14,9 +14,71 @@ These alignments are used to calculate [synteny](synteny.md) and for [scoring or
 
 [Table like below with search facets for species]
 
-Species | Human | Mouse | Chimp | etc
---- | --- | --- | --- | ---
-Human | [doc link] | [doc link] | [doc link] | etc
-Mouse | [doc link] | [doc link] | [doc link] | etc
-Chimp | [doc link] | [doc link] | [doc link] | etc
-etc | [doc link] | [doc link] | [doc link] | etc
+Species | Human | Mouse | Rat | Dog | Pig 
+Human | [Human/Human](/info/genome/compara/mlss.html?mlss=739)(self-alignment)| [Mouse/Human](/info/genome/compara/mlss.html?mlss=677) | [Rat/Human](/info/genome/compara/mlss.html?mlss=765) | [Dog/Human](/info/genome/compara/mlss.html?mlss=710) | [Pig/Human](/info/genome/compara/mlss.html?mlss=716) | 
+Gorilla | [Human/Gorilla](/info/genome/compara/mlss.html?mlss=713) | | | | 
+Chimpanzee | [Human/Chimpanzee](/info/genome/compara/mlss.html?mlss=688) | | | | | 
+Orangutan | [Human/Orangutan](/info/genome/compara/mlss.html?mlss=683) | | | | | 
+Gibbon | [Human/Gibbon](/info/genome/compara/mlss.html?mlss=679) | | | | | 
+Macaque | [Human/Macaque](/info/genome/compara/mlss.html?mlss=820) | | | | | 
+Olive baboon | [Human/Olive baboon](/info/genome/compara/mlss.html?mlss=745) | | | | | 
+Vervet-AGM | [Human/Vervet-AGM](/info/genome/compara/mlss.html?mlss=757) | | | | | 
+Marmoset | [Human/Marmoset](/info/genome/compara/mlss.html?mlss=711) | | | | | 
+Tarsier | [Human/Tarsier](/info/genome/compara/mlss.html?mlss=699) | | | | | 
+Mouse Lemur | [Human/Mouse Lemur](/info/genome/compara/mlss.html?mlss=821) | | | | | 
+Bushbaby | [Human/Bushbaby](/info/genome/compara/mlss.html?mlss=682) | | | | | 
+Mouse | [Human/Mouse](/info/genome/compara/mlss.html?mlss=677) | | [Rat/Mouse](/info/genome/compara/mlss.html?mlss=766) | [Dog/Mouse](/info/genome/compara/mlss.html?mlss=592) | [Pig/Mouse](/info/genome/compara/mlss.html?mlss=584) | 
+Mouse SPRET/EiJ | [Human/Mouse SPRET/EiJ](/info/genome/compara/mlss.html?mlss=831) | | | | | 
+Rat | [Human/Rat](/info/genome/compara/mlss.html?mlss=765) | [Mouse/Rat](/info/genome/compara/mlss.html?mlss=766) | | | | 
+Kangaroo rat | [Human/Kangaroo rat](/info/genome/compara/mlss.html?mlss=685) | | | | | 
+Squirrel | [Human/Squirrel](/info/genome/compara/mlss.html?mlss=702) | | | | | 
+Guinea Pig | [Human/Guinea Pig](/info/genome/compara/mlss.html?mlss=681) | [Mouse/Guinea Pig](/info/genome/compara/mlss.html?mlss=669) | | | | 
+Pika | [Human/Pika](/info/genome/compara/mlss.html?mlss=694) | | | | | 
+Rabbit | [Human/Rabbit](/info/genome/compara/mlss.html?mlss=680) | | | | | 
+Tree Shrew  | [Human/Tree Shrew](/info/genome/compara/mlss.html?mlss=698) | [Mouse/Tree Shrew](/info/genome/compara/mlss.html?mlss=698) | | | | 
+Hedgehog  | [Human/Hedgehog](/info/genome/compara/mlss.html?mlss=687) | [Mouse/Hedgehog](/info/genome/compara/mlss.html?mlss=687) | | | | 
+Shrew  | [Human/Shrew](/info/genome/compara/mlss.html?mlss=697) | [Mouse/Shrew](/info/genome/compara/mlss.html?mlss=697) | | | | 
+Microbat  | [Human/Microbat](/info/genome/compara/mlss.html?mlss=704) | [Mouse/Microbat](/info/genome/compara/mlss.html?mlss=704) | | | | 
+Megabat  | [Human/Megabat](/info/genome/compara/mlss.html?mlss=696) | [Mouse/Megabat](/info/genome/compara/mlss.html?mlss=696) | | | | 
+Horse  | [Human/Horse](/info/genome/compara/mlss.html?mlss=706) | | | [Dog/Horse](/info/genome/compara/mlss.html?mlss=593) | | 
+Cat  | [Human/Cat](/info/genome/compara/mlss.html?mlss=712) | | | [Dog/Cat](/info/genome/compara/mlss.html?mlss=670) | | 
+Dog  | [Human/Dog](/info/genome/compara/mlss.html?mlss=710) | [Mouse/Dog](/info/genome/compara/mlss.html?mlss=592) | | | 
+Panda  | [Human/Panda](/info/genome/compara/mlss.html?mlss=705) | | | [Dog/Panda](/info/genome/compara/mlss.html?mlss=594) | | 
+Ferret  | [Human/Ferret](/info/genome/compara/mlss.html?mlss=703) | [Mouse/Ferret](/info/genome/compara/mlss.html?mlss=607) | | [Dog/Ferret](/info/genome/compara/mlss.html?mlss=671) | | 
+Dolphin  | [Human/Dolphin](/info/genome/compara/mlss.html?mlss=700) | | | | | 
+Pig  | [Human/Pig](/info/genome/compara/mlss.html?mlss=716) | [Mouse/Pig](/info/genome/compara/mlss.html?mlss=584) | | | | 
+Cow  | [Human/Cow](/info/genome/compara/mlss.html?mlss=709) | [Mouse/Cow](/info/genome/compara/mlss.html?mlss=586) | | | [Pig/Cow](/info/genome/compara/mlss.html?mlss=579) | 
+Sheep  | [Human/Sheep](/info/genome/compara/mlss.html?mlss=746) | | | | [Pig/Sheep](/info/genome/compara/mlss.html?mlss=663) | 
+Alpaca  | [Human/Alpaca](/info/genome/compara/mlss.html?mlss=701) | | | | | 
+Sloth  | [Human/Sloth](/info/genome/compara/mlss.html?mlss=678) | | | | | 
+Armadillo  | [Human/Armadillo](/info/genome/compara/mlss.html?mlss=684) | | | | |  
+Lesser hedgehog tenrec  | [Human/Lesser hedgehog tenrec](/info/genome/compara/mlss.html?mlss=689) | | | | | 
+Elephant  | [Human/Elephant](/info/genome/compara/mlss.html?mlss=691) | | | | | 
+Hyrax  | [Human/Hyrax](/info/genome/compara/mlss.html?mlss=695) | | | | | 
+Tasmanian devil  | [Human/Tasmanian devil](/info/genome/compara/mlss.html?mlss=715) | | | | | 
+Wallaby  | [Human/Wallaby](/info/genome/compara/mlss.html?mlss=692) | | | | | 
+Opossum  | [Human/Opossum](/info/genome/compara/mlss.html?mlss=707) | | | | | 
+Platypus  | [Human/Platypus](/info/genome/compara/mlss.html?mlss=708) | [Mouse/Platypus](/info/genome/compara/mlss.html?mlss=587) | | | | 
+Anole lizard  | [Human/Anole lizard](/info/genome/compara/mlss.html?mlss=722) | | | | | 
+Zebra Finch  | [Human/Zebra Finch](/info/genome/compara/mlss.html?mlss=731) | | | | | 
+Flycatcher  | [Human/Flycatcher](/info/genome/compara/mlss.html?mlss=718) | | | | | 
+Duck  | [Human/Duck](/info/genome/compara/mlss.html?mlss=717) | | | | | 
+Chicken  | [Human/Chicken](/info/genome/compara/mlss.html?mlss=811) | [Mouse/Chicken](/info/genome/compara/mlss.html?mlss=814) | | | | 
+Turkey  | [Human/Turkey](/info/genome/compara/mlss.html?mlss=736) | | | | | 
+Chinese softshell turtle  | [Human/Chinese softshell turtle](/info/genome/compara/mlss.html?mlss=720) | | | | | 
+Xenopus  | [Human/Xenopus](/info/genome/compara/mlss.html?mlss=735) | [Mouse/Xenopus](/info/genome/compara/mlss.html?mlss=796) | | | | 
+Coelacanth  | [Human/Coelacanth](/info/genome/compara/mlss.html?mlss=727) | | | | | 
+Zebrafish  | [Human/Zebrafish](/info/genome/compara/mlss.html?mlss=767) | [Mouse/Zebrafish](/info/genome/compara/mlss.html?mlss=791) | [Rat/Zebrafish](/info/genome/compara/mlss.html?mlss=792) | | | 
+Cave fish  | [Human/Cave fish](/info/genome/compara/mlss.html?mlss=751) | | | | | 
+Cod  | [Human/Cod](/info/genome/compara/mlss.html?mlss=726) | | | | | 
+Tilapia  | [Human/Tilapia](/info/genome/compara/mlss.html?mlss=729) | | | | | 
+Medaka  | [Human/Medaka](/info/genome/compara/mlss.html?mlss=728) | | | | | 
+Platyfish  | [Human/Platyfish](/info/genome/compara/mlss.html?mlss=734) | | | | | 
+Amazon molly  | [Human/Amazon molly](/info/genome/compara/mlss.html?mlss=747) | | | | | 
+Fugu  | [Human/Fugu](/info/genome/compara/mlss.html?mlss=733) | | | | | 
+Tetraodon  | [Human/Tetraodon](/info/genome/compara/mlss.html?mlss=732) | | | | | 
+Stickleback  | [Human/Stickleback](/info/genome/compara/mlss.html?mlss=725) | | | | | 
+Spotted gar  | [Human/Spotted gar](/info/genome/compara/mlss.html?mlss=752) | | | | | 
+Lamprey  | [Human/Lamprey](/info/genome/compara/mlss.html?mlss=730) | | | | | 
+C.intestinalis  | [Human/C.intestinalis](/info/genome/compara/mlss.html?mlss=723) | [Mouse/C.intestinalis](/info/genome/compara/mlss.html?mlss=802) | | | | 
+C.savignyi  | [Human/C.savignyi](/info/genome/compara/mlss.html?mlss=721) | | | | | 
