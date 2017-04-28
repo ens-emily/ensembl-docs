@@ -1,3 +1,23 @@
+# Multiple genome alignments
+
+Multiple alignments are calculated between groups of genomes. These are used to calculate [ancestral sequences](ancestral_sequences.md), [age of base](age_of_base.md), [conservation scores and constrained elements](conservation_and_constrained.md).
+
+## Alignments available
+
+Name | Genomes | Method used
+--- | --- | ---
+[24 amniota vertebrates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=830) | Human, Gorilla, Chimpanzee, Orangutan, Macaque, Olive, Vervet-AGM, Marmoset, Mouse, Mouse, Rat, Rabbit, Horse, Cat, Dog, Pig, Cow, Sheep, Opossum, Platypus, Anole lizard, Zebra, Chicken, Turkey | PECAN
+[5 teleost fish](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=768) | Zebrafish, Medaka, Tetraodon, Stickleback, Spotted gar | EPO
+8 primates |  | EPO
+4 sauropsids |  | EPO
+18 eutherian mammals |  | EPO
+11 fish |  | EPO_LOW_COVERAGE
+7 sauropsids |  | EPO_LOW_COVERAGE
+40 eutherian mammals |  | EPO_LOW_COVERAGE
+18 murinae |  | Cactus alignment
+
+## Alignment methods
+
 PECAN Multiple Alignment
 
 Pecan is used to provide global multiple genomic alignments. First, Mercator is used to build a synteny map between the genomes and then Pecan builds alignments in these syntenic regions.
@@ -10,8 +30,6 @@ EPO Multiple Alignment
 The EPO (Enredo, Pecan, Ortheus) pipeline is a three step pipeline for whole-genome multiple alignments. Enredo produces colinear segments from extant genomes handling both rearrangements, deletions and duplications. Pecan, as described above, is used to align these segments. Finally, Ortheus is used to create genome-wide ancestral sequence reconstructions. Further details on these methods can be found at:
 
 Enredo and Pecan: Genome-wide mammalian consistency-based multiple alignment with paralogs
-Genome-wide nucleotide-level mammalian ancestor reconstruction
-Ancestral sequences are inferred from the EPO multiple alignments using Ortheus. Ortheus is a probabilistic method for the inference of ancestor, a.k.a tree, alignments. The main contribution of Ortheus is the use of a phylogenetic model incorporating gaps to infer insertion and deletion events. Ancestral sequences are predicted for each node of the phylogenetic tree that relates the sequences. Each ancestral sequence is named according to the derived extant species. For example, a sequence named Hsap, Ptro, Mmul corresponds to the ancestor of the Homo sapiens, Pan troglodytes, and Macaca mulatta genomes.
 
 Due to difficulties with running Ortheus on the fragmented assemblies, we have two flavours of the pipeline. First, the plain EPO pipeline is available on the chromosome-level genomes:
 
@@ -31,9 +49,3 @@ Progressive Cactus
 Progressive-Cactus is a next-generation aligner that stores whole-genome alignments in a graph structure. Genomes can be added incrementally, which makes it scalable to hundreds of genomes. Further details on these methods can be found in Algorithms for genome multiple sequence alignment and Cactus graphs for genome comparisons.
 
 18 murinae Cactus alignment
-Age of Base
-
-From those ancestral sequences, we infer the age of a base, i.e. the timing of the most recent mutation for each base of the genome. Each position of the genome is compared to its immediate inferred ancestor, then its ancestor, etc. until a difference is found. The inferred substitution event therefore occurred on a specific branch of the tree, which is identified by all the extant species which eventually descended from that branch, as illustrated below.
-
-Age of Base schema
-This track is currently only available for the human genome.
