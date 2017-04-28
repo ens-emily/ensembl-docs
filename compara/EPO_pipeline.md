@@ -1,6 +1,6 @@
 # EPO pipeline
 
-The EPO pipeline is split into 3 parts
+The EPO pipeline is split into three parts
 
 1. Anchor generation
 
@@ -24,7 +24,7 @@ The EPO pipeline is split into 3 parts
 
 * Aligning the sequences is done anew with each release (assuming there is a new species added or an updated assembly).
 
-* The following pipeconfig files (~/ensembl-compara/modules/Bio/EnsEMBL/Compara/PipeConfig) are used for setting up the eHive for running the 3 pipeline stages:
+* The following pipeconfig files (~/ensembl-compara/modules/Bio/EnsEMBL/Compara/PipeConfig) are used for setting up the [eHive](http://www.ensembl.org/info/docs/eHive.html) for running the three pipeline stages:
   1. anchor generation : EPO_pt1_conf.pm
   2. anchor mapping : EPO_pt2_conf.pm
   3. graph generation followed by aligning : EPO_pt3_conf.pm
