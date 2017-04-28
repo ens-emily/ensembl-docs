@@ -4,11 +4,9 @@
 
 In self-alignment analyses, the trivial alignments (i.e. regions against themselves) are removed, such that only the paralogous regions remain.
 
-When both species have a chromosome-level assembly, we summarise the LastZ-net alignment blocks into syntenic regions. We look for stretches where the alignment blocks are in synteny. The search is run in two phases. In the first one, syntenic alignments that are closer than 200 kbp are grouped. In the second phase, the groups that are in synteny are linked provided that no more than 2 non-syntenic groups are found between them and they are less than 3Mbp apart.
-
 Here is the list of all the pairwise comparisons that are available:
 
-[Table like]
+[Table like below with search facets for species]
 
 Species | Human | Mouse | Chimp | etc
 --- | --- | --- | --- | ---
