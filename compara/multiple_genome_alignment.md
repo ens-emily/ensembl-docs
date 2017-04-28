@@ -6,15 +6,15 @@ Multiple alignments are calculated between groups of genomes. These are used to 
 
 Name | Genomes | Method used
 --- | --- | ---
-[24 amniota vertebrates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=830) | Human, Gorilla, Chimpanzee, Orangutan, Macaque, Olive, Vervet-AGM, Marmoset, Mouse, Mouse, Rat, Rabbit, Horse, Cat, Dog, Pig, Cow, Sheep, Opossum, Platypus, Anole lizard, Zebra, Chicken, Turkey | PECAN
+[24 amniota vertebrates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=830) | Human, Gorilla, Chimpanzee, Orangutan, Macaque, Olive baboon, Vervet-AGM, Marmoset, Mouse, Mouse, Rat, Rabbit, Horse, Cat, Dog, Pig, Cow, Sheep, Opossum, Platypus, Anole lizard, Zebra finch, Chicken, Turkey | PECAN
 [5 teleost fish](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=768) | Zebrafish, Medaka, Tetraodon, Stickleback, Spotted gar | EPO
-8 primates |  | EPO
-4 sauropsids |  | EPO
-18 eutherian mammals |  | EPO
-11 fish |  | EPO_LOW_COVERAGE
-7 sauropsids |  | EPO_LOW_COVERAGE
-40 eutherian mammals |  | EPO_LOW_COVERAGE
-18 murinae |  | Cactus alignment
+[8 primates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=822) | Human, Gorilla, Chimpanzee, Orangutan, Macaque, Olive baboon, Vervet-AGM, Marmoset  | EPO
+[4 sauropsids](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=825) | Anole lizard, Zebra finch, Chicken, Turkey | EPO
+[18 eutherian mammals](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=828) | Human, Gorilla, Chimpanzee, Orangutan, Macaque, Olive baboon, Vervet-AGM, Marmoset, Mouse, Mouse SPRET/EiJ, Rat, Rabbit, Horse, Cat, Dog, Pig, Cow, Sheep | EPO
+[11 fish](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=793) | Zebrafish, Cave fish, Cod, Tilapia, Medaka, Platyfish, Amazon molly, Fugu, Tetraodon, Stickleback, Spotted gar  | EPO_LOW_COVERAGE
+[7 sauropsids](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=826) | Duck, Chicken, Turkey, Chinese softshell turtle, Anole lizard, Zebra finch, Flycatcher | EPO_LOW_COVERAGE
+[40 eutherian mammals](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=829) | Human, Gorilla, Chimpanzee, Orangutan, Gibbon, Macaque, Olive baboon, Vervet-AGM, Marmoset, Tarsier, Mouse lemur, Bushbaby, Mouse, Mouse SPRET/EiJ, Rat, Kangaroo rat, Squirrel, Guinea pig, Pika, Rabbit, Tree shrew, Hedgehog, Shrew, Microbat, Megabat, Horse, Cat, Dog, Panda, Ferret, Dolphin, Pig, Cow, Sheep, Alpaca, Sloth, Armadillo, Lesser hedgehog tenrec, Elephant, Hyrax | EPO_LOW_COVERAGE
+[18 murinae](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=835) | Mouse , Mouse DBA/2J, Mouse CAST/EiJ, Mouse C57BL/6NJ, Mouse C3H/HeJ, Mouse WSB/EiJ, Mouse A/J, Mouse BALB/cJ, Mouse LP/J, Mouse NOD/ShiLtJ, Mouse 129S1/SvImJ, Mouse CBA/J, Mouse AKR/J, Mouse NZO/HlLtJ, Mouse FVB/NJ, Mouse PWK/PhJ, Mouse SPRET/EiJ, Rat  | Cactus alignment
 
 ## Alignment methods
 
