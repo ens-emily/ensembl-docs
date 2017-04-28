@@ -17,6 +17,7 @@ These alignments are used to calculate [synteny](synteny.md) and for [scoring or
 Species | Human | Mouse | Rat | Dog | Pig |
 --- | --- | --- | --- | --- | --- | --- 
 Human | [Human/Human](/info/genome/compara/mlss.html?mlss=739)(self-alignment)| [Mouse/Human](/info/genome/compara/mlss.html?mlss=677) | [Rat/Human](/info/genome/compara/mlss.html?mlss=765) | [Dog/Human](/info/genome/compara/mlss.html?mlss=710) | [Pig/Human](/info/genome/compara/mlss.html?mlss=716) | 
+
 Gorilla | [Human/Gorilla](/info/genome/compara/mlss.html?mlss=713) | | | | 
 Chimpanzee | [Human/Chimpanzee](/info/genome/compara/mlss.html?mlss=688) | | | | | 
 Orangutan | [Human/Orangutan](/info/genome/compara/mlss.html?mlss=683) | | | | | 
