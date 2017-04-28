@@ -15,4 +15,4 @@ Species | Human | Mouse | Chimp | etc
 Human | [doc link] | [doc link] | [doc link] | etc
 Mouse | [doc link] | [doc link] | [doc link] | etc
 Chimp | [doc link] | [doc link] | [doc link] | etc
-etc | | [doc link] | [doc link] | [doc link] | etc
+etc | [doc link] | [doc link] | [doc link] | etc
