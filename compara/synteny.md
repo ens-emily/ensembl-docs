@@ -10,7 +10,7 @@ Here is the list of all the synteny comparisons that are available:
 
 [Table like below with search facets for species]
 
- | Human | Mouse | Dog | Pig | Cow | Chicken | Zebrafish | Medaka
+Species | Human | Mouse | Dog | Pig | Cow | Chicken | Zebrafish | Medaka
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 Human |  | [Mouse/Human](/info/genome/compara/mlss.html?mlss=10080) | [Dog/Human](/info/genome/compara/mlss.html?mlss=10099) | [Pig/Human](/info/genome/compara/mlss.html?mlss=10084) | [Cow/Human](/info/genome/compara/mlss.html?mlss=10098) |  | [Zebrafish/Human](/info/genome/compara/mlss.html?mlss=10112) | [Medaka/Human](/info/genome/compara/mlss.html?mlss=10089)
 Gorilla | [Human/Gorilla](/info/genome/compara/mlss.html?mlss=10094) |  |  |  |  |  |  | 
