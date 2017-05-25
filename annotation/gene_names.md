@@ -15,6 +15,8 @@ The list of gene name categories for human is as follows:
 * Clone-based Ensembl
 * Clone-based Vega
 
+On occasion, the Hugo Gene Nomenclature Committee (HGNC) review the approved gene names for a number of genes. This review process aims to assign gene names that describe gene function more accurately. Please see the [HGNC site](http://www.genenames.org/) for more details as to which genes are more at risk of a likely change. Please note that previous symbols will be maintained as ‘synonyms’, however we recommend using the HGNC ID to ensure stability in your pipelines and analyses.
+
 ## Other species
 
 Mouse genes are named from [MGI](http://www.informatics.jax.org/), rat genes are named from [RGD](http://rgd.mcw.edu/) and zebrafish genes are named from [ZFIN](https://zfin.org/). Other species have gene names imported from [Uniprot](http://www.uniprot.org/) and [NCBIGene](https://www.ncbi.nlm.nih.gov/gene), or if this is not available, from the human, mouse, rat or zebrafish orthologue.
