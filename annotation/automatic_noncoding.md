@@ -18,8 +18,6 @@ Non-coding RNAs (ncRNAs) are involved in many biological processes and are incre
 
 ## Annotation Details
 
-(Flow-chart)
-
 Most ncRNAs are annotated by aligning genomic sequence against [RFAM](http://rfam.xfam.org/) using [BLASTN](http://blast.wustl.edu/). The BLAST hits are clustered and filtered by E-value and are used to seed Infernal searches of the locus with the corresponding RFAM covariance models. The purpose of this is to reduce the search space required, as to scan the entire genome with all the RFAM covariance models would be extremely CPU-intensive. The resulting BLAST hits are then used as supporting evidence for ncRNA genes.
 
 Some ncRNAs have specialised annotation.
