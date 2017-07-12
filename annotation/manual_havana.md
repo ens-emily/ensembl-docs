@@ -1,6 +1,6 @@
 # Manual gene annotation by Havana
 
-Manual annotation is carried out on human, mouse, pig and rat genomes by the HAVANA group. It complements the automatic annotation, new transcript models and extra support for existing transcript models. Manual annotation is more sensitive than automatic annotation and aims to annotate all possible transcripts.
+Manual annotation is carried out on human, mouse, zebrafish, pig and rat genomes by the HAVANA group. It complements the automatic annotation, new transcript models and extra support for existing transcript models. Manual annotation is more sensitive than automatic annotation and aims to annotate all possible transcripts.
 
 
 ## How manual annotation is done
