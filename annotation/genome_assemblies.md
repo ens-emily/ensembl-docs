@@ -9,7 +9,7 @@ Find out more about how genome assemblies are put together and how we use them i
 * [Repeats.](assembly_repeats.md)
 * [Haplotypes and patches.](haplotypes_patches.md)
 * [Pseudoautosomal regions in human.](human_PARs.md)
-* [Gene annotation in Ensembl.](annotation_landing.md)
+* [Gene annotation in Ensembl.](gene_annotation_landing.md)
 
 ## Genome Browser agreement
 
