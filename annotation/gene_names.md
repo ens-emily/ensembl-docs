@@ -23,4 +23,4 @@ Mouse genes are named from [MGI](http://www.informatics.jax.org/), rat genes are
 
 ## Transcript numbering
 
-Each transcript is named using the gene name, followed by a number. If the number starts with '0', eg 001, 002, etc, this is a merged or manually curated transcript from Havana/Vega. If the number starts with '2', such as 200, 201, etc, this is an automatically annotated transcript from Ensembl. This does not take the place of the Ensembl gene ID, ENSG..., which is stable from release to release, and has not changed.
+Each transcript is named using the gene name, followed by a number. This does not take the place of the Ensembl gene ID, ENSG..., which is stable from release to release, and does not change.
