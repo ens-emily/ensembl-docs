@@ -16,40 +16,29 @@
 | Species | Source of data |
 | --- | --- |
 | Amazon molly | Washington University |
-| Anole lizard ||
+| Anole lizard | |
 | Armadillo | BROAD institute |
-| Zebrafish | paired end Illumina RNASeq data from the Wellcome Trust Sanger Institute Zebrafish Transcriptome Sequencing Project |
-(etc)
-
-Anolis carolinensis
-Astyanax mexicanus
-Canis familiaris
-Chlorocebus sabaeus
-Danio rerio
-Dasypus novemcinctus
-Felis catus
-Ficedula albicollis
-Gallus gallus
-Homo sapiens
-Lepisosteus oculatus
-Macaca mulatta
-Microcebus murinus
-Monodelphis domestica
-Mus musculus
-Mustela putorius
-Nomascus leucogenys
-Oreochromis niloticus
-Ornithorhynchus anatinus
-Oryctolagus cuniculus
-Ovis aries
-Pan troglodytes
-Papio anubis
-Pelodiscus sinensis
-Poecilia formosa
-Pongo abelii
-Rattus norvegicus
-Sus scrofa
-Xiphophorus maculatus
+| Cat | The Texas A&M College of Veterinary Medicine & Biomedical Sciences, Department of Veterinary Integrative Biosciences |
+| Cave fish | Washington University |
+| Chicken | RNA-seq and PacBio data from  the Roslin Institute |
+| Chimpanzee | Henrik Kaessmann from the University of Lausanne |
+| Chinese softsheel turtle | RIKEN and BGI Institutes |
+| Dog | BROAD Institute |
+| Ferret | BROAD Institute |
+| Flycatcher | Uppsala University |
+| Mouse lemur | |
+| Olive baboon |  Nonhuman Primate Reference Transcriptome Resource and the Human Genome Sequencing Center, Baylor College of Medicine |
+| Pig | Swine Genome Sequencing Consortium |
+| Platyfish | |
+| Platypus | Oxford Functional Genomics group |
+| Rabbit | |
+| Rat | |
+| Rhesus macaque | |
+| Sheep | ISGC |
+| Spotted gar | |
+| Tilapia | BROAD Institute |
+| Vervet AGM | Washington University |
+| Zebrafish | paired end Illumina RNA-seq data from the Wellcome Trust Sanger Institute Zebrafish Transcriptome Sequencing Project |
 
 ## References
 
