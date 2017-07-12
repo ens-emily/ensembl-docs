@@ -16,7 +16,7 @@ The gene orthology and paralogy prediction pipeline has eight basic steps:
 4. For each cluster, build a multiple alignment based on the protein sequences using either a combination of multiple aligners, consensified by [M-Coffee3](http://www.tcoffee.org/Projects/mcoffee/) or [Mafft4](http://mafft.cbrc.jp/alignment/software/) when the cluster is too large, or MCoffee is too long. We use the version 9.03.r1318 of M-Coffee, with the aligner set: mafftgins_msa, muscle_msa, kalign_msa, t_coffee_msa, and the Mafft version 7.113 with the command line options: --auto.
 5. For each aligned cluster, build a phylogenetic tree using [TreeBeST5](https://github.com/Ensembl/treebest) using the CDS back-translation of the protein multiple alignment from the original DNA sequences. A rooted tree with internal duplication tags is obtained at this stage, reconciling it against a species tree inferred from the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy). See below for more details.
 6. From each gene tree, infer gene pairwise relations of orthology and paralogy types.
-7. A [stable ID](gene_tree_stable_id.md] is assigned to each GeneTree.
+7. A [stable ID](gene_tree_stable_id.md) is assigned to each GeneTree.
 8. There is an extra optional step which calculates the dN/dS values for the orthology relationships of closely related pairs of species, using [codeml6](http://abacus.gene.ucl.ac.uk/software/paml.html) with the parameters found in ensembl-compara/scripts/homology/codeml.ctl.hash.
 
 ### Clustering
