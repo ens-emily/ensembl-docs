@@ -13,4 +13,4 @@ Manual annotation is carried out on human, mouse, zebrafish, pig and rat genomes
 
 * The annotation is based on supporting homology evidence only and includes all types of genes: protein coding, non-coding and pseudogenes.
 
-* There is a fine-grained classification system for gene and transcript types (e.g. different types of pseudogenes, different types of non-coding RNAs).
+* There is a fine-grained classification system for [gene and transcript types](biotypes.md) (e.g. different types of pseudogenes, different types of non-coding RNAs).
