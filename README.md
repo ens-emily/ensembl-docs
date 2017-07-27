@@ -17,7 +17,7 @@ The new documentation will go here.
 | Links in text | Avoid filling a paragraph with links. If you think a paragraph needs lots of associated links, you should put a list after the paragraph, rather than making every other phrase in the paragraph a link. Do not put the URL in the text, unless there is a very good reason to do so (eg " this is how you construct a REST URL"), link from a descriptive phrase (eg "[this FAQ] describes this in detail", not "The following FAQ describes this in detail: www.ensembl.org/uglylookingurl"). Never use "Click [here] to view thing", "[thing] is a tool for..." is much better.	| |
 | Bullet points | Round bullets, indent the lines following the bullet | |
 | Numbered lists | 1. 2. 3. etc, indent lines following the number. Subsections in the form a) b) c), then (i) (ii) (iii) | |
-| Page titles | Should always perfectly match the titles on the pages themselves, even down to case.	| |
+| Page titles | Where you mention an Ensembl page in the text (eg "You can view this in the Region in detail view"), the titles should always perfectly match the titles on the pages themselves, even down to case. Link out to an example page wherever relevant.	| |
 | Integers ≤ twelve |	Write the word	| |
 | Numbers ≥ 13 or with decimals | Use digits	| |
 | Oxford commas | Do not use, this is Cambridge	| |
