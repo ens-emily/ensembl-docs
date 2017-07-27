@@ -1,4 +1,4 @@
-# Using the Browser -- General Principles
+# Using the Browser — General Principles
 
 Here we explain some of the general principles of using the browser:
 
