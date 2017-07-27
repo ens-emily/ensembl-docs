@@ -16,6 +16,7 @@
 ## Species prefixes
 
 (table like)
+
 | Prefix | Latin name | Common name |
 | --- | --- | --- |
 | ENSMUS | *Mus musculus* | Mouse |
