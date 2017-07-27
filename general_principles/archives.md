@@ -31,10 +31,15 @@ Alternatively, you can jump to archives using the format:
 In the footer of each current Ensembl page, there is a link called *Permanent link*, which links to the corresponding page in the Ensembl Archive. A similar link on each archive page links back to the current site (i.e. www.ensembl.org).
 
 For example if you are looking at the Alternative Splicing view for human gene BRCA2 on the [main Ensembl site](http://www.ensembl.org/index.html) in August 2015, when Ensembl 80 was the current version, the URL would be:
+
 ``http://www.ensembl.org/Homo_sapiens/Gene/Splice?db=core;g=ENSG00000139618;r=13:31787617-31871809;t=ENST00000380152``
+
 and the equivalent archived page URL would be:
+
 ``http://jul2015.archive.ensembl.org/Homo_sapiens/Gene/Splice?db=core;g=ENSG00000139618;r=13:31787617-31871809;t=ENST00000380152``
+
 or you can jump there easily using:
+
 ``http://e80.ensembl.org/Homo_sapiens/Gene/Splice?db=core;g=ENSG00000139618;r=13:31787617-31871809;t=ENST00000380152``
 
 Unfortunately, owing to the change in site organisation between releases it is not always possible to map pages one-to-one between the current Ensembl site and the older archives. If the link does not take you to the data you expected, trying using the search facility to locate the information.
