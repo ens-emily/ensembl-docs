@@ -22,7 +22,7 @@ If you've found a page you're interested in, you can bookmark it to your Ensembl
 
 Click on your email address in the top left to be given a list of your bookmarks.
 
-![Bookmark menu](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/bookmark_menu.png.png "Bookmark menu")
+![Bookmark menu](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/bookmark_menu.png "Bookmark menu")
 
 ## Save configurations and sets
 
