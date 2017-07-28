@@ -18,13 +18,11 @@ When you run a job through an [Ensembl tool](/info/docs/tools/index.html), such 
 
 If you've found a page you're interested in, you can bookmark it to your Ensembl account. On the left hand side of a page, you should see a blue button saying _Bookmark this page_. This will give you options to add the page to your account.
 
-[[IMAGE::bookmark_page.png height="30" width="223"]]
-![Login/Register](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/Login_register.png "Login/Register")
+![Bookmark button](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/bookmark_page.png "Bookmark button")
 
 Click on your email address in the top left to be given a list of your bookmarks.
 
-[[IMAGE::bookmark_menu.png height="230" width="258"]]
-![Login/Register](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/Login_register.png "Login/Register")
+![Bookmark menu](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/bookmark_menu.png.png "Bookmark menu")
 
 ## Save configurations and sets
 
