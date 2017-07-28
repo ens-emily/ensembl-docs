@@ -8,9 +8,7 @@ Here we explain some of the general principles of using the browser:
 * Exploring data associated with a feature using the [menus](left_hand_menu.md).
 * Customising Ensembl views with the [Configure this page](configure.md) button.
 * [Sharing](share.md) Ensembl views.
-* Exporting:
-    * [Data](export_data.md).
-    * [Images](export_images.md).
+* [Exporting Data](export_data.md) such as images, tables and sequence.
 * Setting up [Accounts](accounts.md) for saving and sharing Ensembl pages.
 * [Ensembl identifiers](stable_ids.md).
 * Worldwide access to Ensembl via [mirrors](mirrors.md).
