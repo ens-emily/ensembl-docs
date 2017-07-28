@@ -8,6 +8,8 @@ We respectfully request that you do not script against the export pages on the E
 
 ![Export button](export_data.png "Export button")
 
+You'll find the **Export data** button on the left-hand side of many pages in the 
+
 ## Exporting sequence
 
 ![Download sequence](download_sequence.png "Download sequence")
@@ -15,6 +17,10 @@ We respectfully request that you do not script against the export pages on the E
 ## Exporting images
 
 ![Export image](export_image.png "Export image")
+
+## Exporting tables
+
+![Export table](export_table.png "Export table")
 
 ## Exporting comparative genomics data
 
