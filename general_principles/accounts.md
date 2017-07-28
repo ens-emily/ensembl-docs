@@ -28,22 +28,11 @@ Click on your email address in the top left to be given a list of your bookmarks
 
 Many Ensembl pages are configurable to display the datasets you're interested in. When you've configured a page a certain way, you might want to change it, but go back to that view later. An easy way to do this is save configurations.
 
-In the _Configure this page_ menu there is a blue button saying _Save configuration as..._.
+At the top of the _Configure this page_ menu there is an option to save your configuration or to access saved configurations
 
-[[IMAGE::save_config.png height="31" width="262"]]
+![Save configuration](saved_configs.png "Save configuration")
 
-Click on this to go to a dialogue box which allows you to name and describe your configuration. It also allows you to save to either your Account, your Session or to a group.
-
-[[IMAGE::save_menu.png height="454" width="431"]]
-![Login/Register](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/Login_register.png "Login/Register")
-
-To load a saved configuration, click on _Load configuration_ under the configure menu.
-
-[[IMAGE::load_config.png height="30" width="262"]]
-![Login/Register](https://github.com/Ensembl/ensembl-webcode/blob/master/htdocs/img/help/Login_register.png "Login/Register")
-
-This will give you a list of your saved configurations to select from. Click on the down arrow at the left to see more information about the configuration. Click on the tick at the right to load a configuration.
-
+Click on this to name your configuration. To load a saved configuration, choose it from the list.
 
 #### Sets
 
