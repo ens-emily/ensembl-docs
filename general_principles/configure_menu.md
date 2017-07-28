@@ -1,23 +1,11 @@
 # Configure this Page
 
-# Ensembl Control Panel
+Throughout Ensembl you'll see a blue button on the left hand side asking you to "Configure this page".
 
-Our new 'Control Panel' puts all your configuration options in one place:
+![Configure button](configure.png)
 
-*   [Configure page](#cp-page)
-*   [Panel configuration](#cp-panel)
-*   [Custom data](#cp-data)
+This allows you to customise the view to see the data that interests you, in a format that is useful to you. Click on the button to open a pop-up menu.
 
-## Configure page
+![screenshot of control panel](http://www.ensembl.org/img/help/control_panel.png)
 
-This section allows you to set some overall options for the pages, such as image widths. It only appears on pages that have one or more configurable images.
-
-## Panel configuration
-
-Each image has its own configuration section - for example on 'Region in detail' you will see two tabs, 'Main panel' and 'Top panel'. In each section, you can turn on tracks, and even customise the way each track is displayed:
-
-![screenshot of control panel](/img/help/control_panel.png)
-
-## Custom data
-
-You can add your own tracks to Ensembl, either by uploading your own data files to our server, or by attaching data via URL.
+In the [Region in detail] view this will allow you to add or remove tracks and in the sequence views it will allow you to change highlighting or line numbering. [Individual help pages] will explain some of the options available for configuring.
