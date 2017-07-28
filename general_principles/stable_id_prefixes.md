@@ -1,6 +1,6 @@
 # Stable ID Prefixes
 
-Stable IDs are created in the form [species prefix][feature type prefix][a unique eleven digit number]. For example a mouse gene might be ENSMUSG###########.
+Stable IDs are created in the form [species prefix][feature type prefix][a unique eleven digit number]. For example a mouse gene might be ENSMUSG###########. The prefixes are listed below.
 
 ## Species prefixes
 
