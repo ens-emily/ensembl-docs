@@ -1,6 +1,6 @@
 # Export Data
 
-Data can be exported from Ensembl pages in various formats. Because we're open access, all the data and images you export are free to be used and reproduced in papers, presentations and websites.
+Data can be exported from Ensembl pages in various formats. Because we're open access, all the data and images you export are free to be used and reproduced in papers, posters, presentations and websites.
 
 We respectfully request that you do not script against the export pages on the Ensembl website, as this degrades the service for other web visitors. We provide various large scale export options, including [BioMart], the [Perl APIs], the [REST API], the [MySQL server] and the [FTP site], depending on the volume and type of export you're carrying out.
 
@@ -42,4 +42,7 @@ The icon at the top right of many Ensembl tables allows you to download them as 
 ## Exporting comparative genomics data
 
 ![Download homologues](download_homologues.png "Download homologues")
+
 ![Export gene tree](export_gene_tree.png "Export gene tree")
+
+The gene tree and homologue pages allow you to export the gene trees and alignments between the homologues in various formats.
