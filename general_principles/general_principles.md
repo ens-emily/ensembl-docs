@@ -5,7 +5,6 @@ Here we explain some of the general principles of using the browser:
 * Accessing older versions of Ensembl through our [Archives](archives.md).
 * A glossary of the [Icons](icons.md) used in Ensembl.
 * Navigating different data types with [tabs](tabbing.md).
-* Exploring data associated with a feature using the [menus](left_hand_menu.md).
 * Customising Ensembl views with the [Configure this page](configure.md) button.
 * [Sharing](share.md) Ensembl views.
 * [Exporting Data](export_data.md) such as images, tables and sequence.
