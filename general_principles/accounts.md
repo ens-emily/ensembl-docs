@@ -32,7 +32,7 @@ At the top of the _Configure this page_ menu there is an option to save your con
 
 ![Save configuration](saved_configs.png "Save configuration")
 
-Click on this to name your configuration. To load a saved configuration, choose it from the list.
+Click on *Save current configuration* to save and name your configuration. To load a saved configuration, choose it from the list.
 
 ## Save custom data
 
