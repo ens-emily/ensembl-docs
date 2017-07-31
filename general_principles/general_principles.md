@@ -2,6 +2,7 @@
 
 Here we explain some of the general principles of using the browser:
 
+* [Searching Ensembl](search.md)
 * Accessing older versions of Ensembl through our [Archives](archives.md).
 * A glossary of the [Icons](icons.md) used in Ensembl.
 * Navigating different data types with [tabs](tabbing.md).
