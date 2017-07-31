@@ -8,4 +8,12 @@ There's also an extra search box on the homepage, which includes an extra specie
 
 ![Search box on the homepage](homepage_search.png)
 
+You can put a variety of things into the search box including:
+* a gene name (for example, BRCA2)
+* an identifier from an external database, such as  UniProt accession number or a PDBe ID
+* a phenotype (for example, coronary heart disease)
+* a variant identifier (for example, rs1223)
+* a location – a genomic region (for example, rat X:100000..200000)
+* a Gene Ontology (GO) term
+
 <iframe title="Search video" width="480" height="390" src="https://www.youtube.com/watch?v=jcvF9HJeaZk&t=3s&ab_channel=EnsemblHelpdesk" frameborder="0" allowfullscreen></iframe>
