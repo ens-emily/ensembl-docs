@@ -6,7 +6,7 @@ When annotating a species for the first time, these identifiers are auto-generat
 
 ## Format
 
-Stable IDs are created in the form [species prefix][feature type prefix][a unique eleven digit number]. For example a mouse gene might be ENSMUSG###########. This means that we can immediately tell from a stable ID what kind of feature they refer to and what species they are in. The prefixes are listed on our [prefix page](stable_id_prefixes.md).
+Stable IDs are created in the form ENS[species prefix][feature type prefix][a unique eleven digit number]. For example a mouse gene might be ENSMUSG###########. This means that we can immediately tell from a stable ID what kind of feature they refer to and what species they are in. The prefixes are listed on our [prefix page](stable_id_prefixes.md).
 
 ## Versioning
 
