@@ -7,6 +7,4 @@ The browser offers access to many data types in Ensembl, in a visual easy-to-use
 * Our video based [browser workshop](https://www.ebi.ac.uk/training/online/course/ensembl-browser-webinar-series-2016) on EBI train online.
 * [Live browser workshops at your institute.](http://training.ensembl.org/hosting)
 
-## Exporting data
-
-Many pages within Ensembl allow export of data.
+You can also [export data](general_principles/export_data.md) from a number of Ensembl pages. We request that you do not script against the export pages on the Ensembl website, as this degrades the service for other web visitors.
