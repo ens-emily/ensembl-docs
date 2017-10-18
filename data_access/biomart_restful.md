@@ -11,13 +11,13 @@ BioMart RESTful access is a quick and easy way to query the Ensembl marts using 
 
 ## Obtaining the BioMart xml from the BioMart website
 
-You can easily obtain a BioMart xml file from the BioMart interface. For example, [navigate to the Ensembl gene mart on the Ensembl website](http://www.ensembl.org/biomart), apply your required filters and select the attribute you are insterested in. [As shown in the example below, filter on the human Ensembl Gene ID "ENSG00000139618" and select the Ensembl Gene, Transcript IDs, HGNC IDs and symbols and Uniprot Swissprot accessions attribute](www.ensembl.org/biomart/martview?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.hgnc_symbol|hsapiens_gene_ensembl.default.feature_page.hgnc_id|hsapiens_gene_ensembl.default.feature_page.uniprot_swissprot&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_gene_id.ENSG00000139618&VISIBLEPANEL=resultspanel). The BioMart xml file can be downloaded from the BioMart result page accessible via the "Results" button. To get your BioMart query in xml, just click on the xml button as indicated by the red box in the image below.
+You can easily obtain a BioMart xml file from the BioMart interface. For example, [navigate to the Ensembl gene mart on the Ensembl website](http://www.ensembl.org/biomart), apply your required filters and select the attribute you are insterested in. [As shown in the example below, filter on the human Ensembl Gene ID "ENSG00000139618" and select the Ensembl Gene, Transcript IDs, HGNC IDs and symbols and Uniprot Swissprot accessions attribute](http://www.ensembl.org/biomart/martview?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.hgnc_symbol|hsapiens_gene_ensembl.default.feature_page.hgnc_id|hsapiens_gene_ensembl.default.feature_page.uniprot_swissprot&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_gene_id.ENSG00000139618&VISIBLEPANEL=resultspanel). The BioMart xml file can be downloaded from the BioMart result page accessible via the "Results" button. To get your BioMart query in xml, just click on the xml button as indicated by the red box in the image below.
 
 [![](http://www.ensembl.org/img/biomart_xml.png)](www.ensembl.org/biomart/martview?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.hgnc_symbol|hsapiens_gene_ensembl.default.feature_page.hgnc_id|hsapiens_gene_ensembl.default.feature_page.uniprot_swissprot&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_gene_id.ENSG00000139618&VISIBLEPANEL=resultspanel)
 
 The xml button will open a new browser window and display the BioMart query in xml format, the text will be similar to the following image.
 
-![](www.ensembl.org/img/biomart_xml2.png)
+![](http://www.ensembl.org/img/biomart_xml2.png)
 
 Just save the content of this page in a new file on your computer, e.g 'hgnc_swissprot.xml' in our example.
 
@@ -70,7 +70,6 @@ ENSG00000139618  ENST00000470094  BRCA2  HGNC:1101
 ENSG00000139618  ENST00000544455  BRCA2  HGNC:1101  P51587
 </pre>
 
-<a name="completionstamp"></a>
 
 ## The xml Completion Stamp
 
@@ -81,7 +80,7 @@ If you want to make sure you are getting all the data from your BioMart query, y
 
 The above command should be paste in the location indicated by the red box in the image below:
 
-<div class="image-wrap" style="">![](/img/biomart_completion_stamp.png)</div>
+![](http://www.ensembl.org/img/biomart_completion_stamp.png)
 
 Then either use [the wget command](#wget) or [the BioMart Perl script](#biomartperlapi). If the query successfuly ran, you will get a "[success]" after running the wget or BioMart perl script:
 
