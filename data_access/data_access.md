@@ -9,4 +9,4 @@ Ensembl data can be accessed at a variety of scales by a variety of different me
 | [FTP site](ftp.md) | Whole genomes | Can use with or without an FTP client. | Files can be quite large. |
 | [Perl API](perl_api.md) | All scales | Object oriented Perl and a familiarity of our APIs. | |
 | [REST API](rest_api.md) | All scales | Any programming language. | |
-| [MySQL database](mysql.md) | All scales | MySQL querying. | Not suitable for sequencing. |
+| [MySQL database](mysql.md) | All scales | MySQL querying. | Not suitable for sequences. |
