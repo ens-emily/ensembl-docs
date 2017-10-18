@@ -26,7 +26,7 @@ BioMart is an easy-to-use web-based tool that allows extraction of data without 
 First, select a mart database which will correspond to the type of data you are interested in. In Ensembl, you can choose data from one of our four mart databases:
 
 *   **Ensembl Genes**: This mart contains the Ensembl gene set and allows you to retrieve Ensembl genes, transcripts and proteins as well as external references, microarrays, protein domains, structure, sequences, variants (only variants mapped to Ensembl Transcripts) and homology data.
-*   **Ensembl Variation**: This mart allows you to retrieve germline and somatic variants as well as germline and somatic structural variants. This mart also contains variants' phenotypes, citations, synomyms, consequences and flanking sequences; you can also retrieve Ensembl genes, transcripts, regulatory and motif features mapped to variants.
+*   **Ensembl Variation**: This mart allows you to retrieve germline and somatic short variants as well as germline and somatic structural variants. This mart also contains variants' phenotypes, citations, synomyms, consequences and flanking sequences; you can also retrieve Ensembl genes, transcripts, regulatory and motif features mapped to variants.
 *   **Ensembl Regulation**: This mart allows you to retrieve regulatory features, evidence and segments, miRNA target regions, binding motifs and other regulatory regions.
 *   **Mouse strains**: This mart contains Ensembl genes for a number of mouse strains, allowing you to retrieve gene information as well as matching genes between the strains.
 
@@ -39,10 +39,10 @@ Next, select a mart dataset which correspond to the species you are interested i
 
 The marts are available for the following species:
 
-*   Ensembl Genes: All the Ensembl species, full list on the [species page](/info/about/species.html).
-*   Ensembl Variation: We only have a subset of our species which have variation data available, full list on the [variation species page](http://www.ensembl.org/info/genome/variation/data_description.html#sources).
-*   Ensembl Regulation: We have regulation data available for human, mouse and fruitfly.
-*   Vega: We have data available for human, mouse, rat, pig and zebrafish.
+*   **Ensembl Genes**: All the Ensembl species, full list on the [species page](http://www.ensembl.org/info/about/species.html).
+*   **Ensembl Variation**: We only have a subset of our species which have variation data available, full list on the [variation species page](http://www.ensembl.org/info/genome/variation/data_description.html#sources).
+*   **Ensembl Regulation**: We have regulation data available for human, mouse and fruitfly.
+*   **Mouse strains**: All mouse strains [listed here](http://www.ensembl.org/Mus_musculus/Info/Strains?db=core).
 
 ## 3\. Filter your mart query (query restriction and input data)
 
@@ -63,12 +63,12 @@ By clicking on the "Attributes" button on the left panel, you will access the ma
 
 ## 5\. Display and retrieve your query
 
-Clicking on the "Results" button will bring you to the mart result page. This page will, by default, show you a preview of the first 10 results of your query in HTML format. The number of results previewed and format can be changed as indicated by number 1 on the image below. You can also automatically remove all the duplicated results from your query by clicking on the "Unique results only" button as indicated by number 2\. If you are happy with your query, you can use the "Export all results to" section as indicated by number 3 (select a format and click on the "Go" button) to download your results.
+Clicking on the "Results" button will bring you to the mart result page. This page will, by default, show you a preview of the first ten results of your query in HTML format. The number of results previewed and format can be changed as indicated by number 1 on the image below. You can also automatically remove all the duplicated results from your query by clicking on the "Unique results only" button as indicated by number 2\. If you are happy with your query, you can use the "Export all results to" section as indicated by number 3 (select a format and click on the "Go" button) to download your results.
 
 ![](http://www.ensembl.org/img/biomart_result_page.png)
 
-You can also request the results of your query to be sent to you by email. To do this, select "Compressed web file (notify by email)" in the first dropdown in the red box on the image below, then select your desired format, type your email address in the "Email notification to" box and press the "Go" button. BioMart will compile the result of your query in the background and send you a link to the compressed file by email.
+You can also request the results of your query to be sent to you by email. To do this, select "Compressed web file (notify by email)" in the first dropdown in the red box on the image below, then select your desired format, type your email address in the "Email notification to" box and press the "Go" button. BioMart will compile the result of your query in the background and send you a link to the compressed file by email when it is ready.
 
 ![](http://www.ensembl.org/img/biomart_result_page2.png)
 
-BioMart tutorials, multiple dataset query, Perl API, RESTful and Bioconductor R package access documentations can be found on [the following page](http://www.ensembl.org/info/data/biomart/index.html). If you have any questions, you can email Ensembl helpdesk [using our web form](http://www.ensembl.org/info/about/contact/index.html).
+BioMart tutorials, multiple dataset query, Perl API, RESTful and Bioconductor R package access documentations can be found on [the following page](biomart.md). If you have any questions, you can email Ensembl helpdesk [using our web form](http://www.ensembl.org/info/about/contact/index.html).
