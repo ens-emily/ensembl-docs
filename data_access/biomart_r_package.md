@@ -100,7 +100,7 @@ You can also use listDatasets with the Ensembl GRCh37 and archived marts:
 
 ### useEnsembl
 
-The "useEnsembl" function allow you to connect to a an ensembl website mart by specifying a BioMart and dataset parameters. For example, to connect to the Ensembl live gene mart human dataset (GRCh38):
+The "useEnsembl" function allow you to connect to an Ensembl website mart by specifying a BioMart and dataset parameters. For example, to connect to the Ensembl live gene mart human dataset (GRCh38):
 
 <pre class="code">> library(biomaRt)
 > ensembl = useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl")
