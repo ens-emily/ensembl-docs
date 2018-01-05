@@ -1,9 +1,10 @@
 Tooltip entries should look like:
 
 ---
+key: a_keyword_with_no_spaces_that_matches_the_filename
 word: "the word you're defining in quote marks"
 definition: "the definition in quote marks. Should be no more than one sentence. Any longer should be a proper separate document, which can be linked from the tooltip"
-tool: the tool where this tip should appear
+tool: the tool where this tip should appear (discuss format with web)
 
 ---
  The file name should be the phrase with underscores for spaces, saved as markdown.
