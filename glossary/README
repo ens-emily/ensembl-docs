@@ -5,9 +5,9 @@ Glossary entries should look like:
 key: a_keyword_with_no_spaces_that_matches_the_filename
 word: "the word you're defining in quote marks"
 definition: "the definition in quote marks. Should be no more than three sentences. Any longer should be a proper separate document, which can be linked from the glossary"
-synonyms: list
-related terms: list of words that also appear in the glosssary
-alternative uses: list of words that also appear in the glossary (probably only used for things like haplotype)
+synonyms: "list", "words in quotes", "separated by comma"
+related terms: list of keys to words that also appear in the glosssary, separated by commas
+alternative uses: list of keys to words that also appear in the glossary (probably only used for things like haplotype)
 
 ---
  The file name should be the phrase with underscores for spaces, saved as markdown.
