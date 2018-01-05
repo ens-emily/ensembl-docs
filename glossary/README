@@ -2,10 +2,11 @@
 Glossary entries should look like:
 
 ---
-word: the word you're defining
-definition: the definition. Should be no more than three sentences. Any longer should be a proper separate document, which can be linked from the glossary
+word: "the word you're defining in quote marks"
+definition: "the definition. Should be no more than three sentences. Any longer should be a proper separate document, which can be linked from the glossary in quote marks"
 synonyms: list
 related terms: list of words that also appear in the glosssary
 alternative uses: list of words that also appear in the glossary (probably only used for things like haplotype)
 
 ---
+ The file name should be the phrase with underscores for spaces, saved as markdown.
