@@ -1,0 +1,6 @@
+---
+word: "%ID"
+definition: "Percentage of the aligned query (input) sequence which is identical to the subject (hit) sequence."
+tool: BLAST results
+
+---
