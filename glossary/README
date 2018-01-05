@@ -2,6 +2,7 @@
 Glossary entries should look like:
 
 ---
+key: a_keyword_with_no_spaces_that_matches_the_filename
 word: "the word you're defining in quote marks"
 definition: "the definition in quote marks. Should be no more than three sentences. Any longer should be a proper separate document, which can be linked from the glossary"
 synonyms: list
