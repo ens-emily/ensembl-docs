@@ -4,18 +4,4 @@ ID	term	parent	description	synonyms	alternative uses
 3	1-to-1 orthologues	2	A type of orthologue assigned for a pair of species where only one copy is found in each species.	1-to-1 orthologs, one-to-one orthologues, one-to-one orthologs	
 4	1-to-many orthologues	2	A type of orthologue assigned for a pair of species where one gene in one species is orthologous to multiple genes in the other species, due to (a) duplication event(s) in the second species.	1-to-many orthologs, one-to-many orthologues, one-to-many orthologs	
 5	Many-to-many orthologues	2	A type of orthologue assigned for a pair of species where multiple orthologues are found in both species, where the duplication events in both species occurred after the speciation event.	many-to-many orthologs	
-6 Apparent orthologues 2        
-7 Paralogues 1        
-8 Within species paralogues 7        
-9 Between species paralogues 7        
-10          
-11          
-12          
-13          
-14          
-15          
-16          
-17          
-18          
-19          
-20          
+6	Apparent orthologues	2	Apparent orthologues occur when genes in different species have homology to one another, but we have reason to believe that they are not directly orthologous to each other. For example, this may occur when there has been a gene duplication but in both species we only have one gene. This may be due to gaps in the genome assemblies, gene deletions or degradation to pseudogenes. These genes are actually between species paralogues, but based on our data we cannot say for certain that the two genes are not orthologues that have significantly diverged.	Apparent orthologs	
