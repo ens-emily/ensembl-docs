@@ -3,7 +3,7 @@ ID	term	parent	description	synonyms	alternative uses
 2	Orthologues	1	Orthologues are genes derived from a common ancestor through vertical descent (or speciation) and can be thought of as the direct evolutionary counterpart.	Orthologs	
 3	1-to-1 orthologues	2	A type of orthologue assigned for a pair of species where only one copy is found in each species.	1-to-1 orthologs, one-to-one orthologues, one-to-one orthologs	
 4	1-to-many orthologues	2	A type of orthologue assigned for a pair of species where one gene in one species is orthologous to multiple genes in the other species, due to (a) duplication event(s) in the second species.	1-to-many orthologs, one-to-many orthologues, one-to-many orthologs	
-5	Many-to-many orthologues	2	A type of orthologue assigned for a pair of species where multiple orthologues are found in both species, where the duplication events in both species occurred after the speciation event. many-to-many orthologs 
+5	Many-to-many orthologues	2	A type of orthologue assigned for a pair of species where multiple orthologues are found in both species, where the duplication events in both species occurred after the speciation event.	many-to-many orthologs 
 6 Apparent orthologues 2        
 7 Paralogues 1        
 8 Within species paralogues 7        
