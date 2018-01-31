@@ -6,7 +6,7 @@ Ensembl families are determined through classification of all Ensembl proteins, 
 
 The pipeline consists of the following steps:
 1. Load proteins from Ensembl and UniProt.
-2. Run HMM search (using the HMM library described in [this document](treefam_hmm_library.md), excluding the TF6 families) to find the families.
+2. Run HMM search (using [the TreeFam HMM library](treefam_hmm_library.md), excluding the TF6 families) to find the families.
 3. Align the families with [Mafft](http://mafft.cbrc.jp/alignment/software/).
 4. Annotate the family with a consensus description, based on its members' descriptions.
 
