@@ -11,35 +11,8 @@
 * Gene models are created by combining the proto-transcripts with the spliced reads to create all possible variants, the variant with the most read support is displayed.
 
 
-## Species with RNA-seq gene annotation
-
-| Species | Source of data |
-| --- | --- |
-| Amazon molly | Washington University |
-| Anole lizard | |
-| Armadillo | BROAD institute |
-| Cat | The Texas A&M College of Veterinary Medicine & Biomedical Sciences, Department of Veterinary Integrative Biosciences |
-| Cave fish | Washington University |
-| Chicken | RNA-seq and PacBio data from  the Roslin Institute |
-| Chimpanzee | Henrik Kaessmann from the University of Lausanne |
-| Chinese softsheel turtle | RIKEN and BGI Institutes |
-| Dog | BROAD Institute |
-| Ferret | BROAD Institute |
-| Flycatcher | Uppsala University |
-| Mouse lemur | |
-| Olive baboon |  Nonhuman Primate Reference Transcriptome Resource and the Human Genome Sequencing Center, Baylor College of Medicine |
-| Pig | Swine Genome Sequencing Consortium |
-| Platyfish | |
-| Platypus | Oxford Functional Genomics group |
-| Rabbit | |
-| Rat | |
-| Rhesus macaque | |
-| Sheep | ISGC |
-| Spotted gar | |
-| Tilapia | BROAD Institute |
-| Vervet AGM | Washington University |
-| Zebrafish | paired end Illumina RNA-seq data from the Wellcome Trust Sanger Institute Zebrafish Transcriptome Sequencing Project |
-
 ## References
 
-http://genome.cshlp.org/content/22/10/2067.long
+[Incorporating RNA-seq data into the zebrafish Ensembl genebuild](http://europepmc.org/abstract/MED/22798491)
+John E. Collins, Simon White, Stephen M.J. Searle and Derek L. Stemple
+Genome Research 2012
