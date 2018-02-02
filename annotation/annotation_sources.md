@@ -2,7 +2,7 @@
 
 ## Protein coding genes
 
-Ensembl coding transcripts are based on mRNA and protein from the following databases. If you do not find a transcript that you expected in Ensembl, make sure there is sequence submitted into these databases. If the sequence is missing, consider submitting your experimental evidence to [ENA](http://www.ebi.ac.uk/ena).
+The automatically annotated Ensembl coding transcripts are based on mRNA and protein from the following databases. If you do not find a transcript that you expected in Ensembl, make sure there is sequence submitted into these databases. If the sequence is missing, consider submitting your experimental evidence to [ENA](http://www.ebi.ac.uk/ena).
 
 
 | Source | About |
@@ -26,3 +26,7 @@ Ensembl genes and transcripts are classified as known, novel or merged.
 A known gene or transcript matches to a sequence in a public, scientific database such as UniProtKB and NCBI RefSeq. The match must be for the same species, otherwise the gene is considered to be novel for that species. Ensembl-Havana merges occur when a manually annotated transcript from the Havana project matches to the Ensembl coding sequence exactly. Matches to IDs in other databases, such as UniProtKB and NCBI EntrezGene, are listed under External References in the Transcript tab.
 
 Known miRNAs from the annotation of Non-coding RNAs process must have a match in miRBase for the same species.
+
+## Manual annotation sources
+
+Manual gene annotation can use other sources, including publications.
