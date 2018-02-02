@@ -27,7 +27,7 @@ Bidirectional lncRNA. A non-coding locus that originates from within the promote
   * **Unclassified processed transcript** Cannot be placed in one of the other categories.
 * **Pseudogene** Similar to known proteins but contain a frameshift and/or stop codon(s) which disrupts the ORF. These can be classified into the following:
   * **Processed pseudogene** Pseudogene that lack introns and is thought to arise from reverse transcription of mRNA followed by reinsertion of DNA into the genome.
-Unprocessed pseudogene. Pseudogene that can contain introns since produced by gene duplication.
+  * **Unprocessed pseudogene** Pseudogene that can contain introns since produced by gene duplication.
   * **Transcribed pseudogene** Pseudogene where protein homology or genomic structure indicates a pseudogene, but the presence of locus-specific transcripts indicates expression. These can be classified into 'Processed', 'Unprocessed' and 'Unitary'.
   * **Translated pseudogene** Pseudogenes that have mass spec data suggesting that they are also translated. These can be classified into 'Processed', 'Unprocessed'
   * **Polymorphic pseudogene** Pseudogene owing to a SNP/indel but in other individuals/haplotypes/strains the gene is translated.
