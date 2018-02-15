@@ -16,3 +16,6 @@ Minor assembly releases have the following naming convention: GRCm38.p3 for the 
 In Ensembl, we display the primary assembly for all species as default. This means that our chromosome coordinates for human and mouse will match those on other genome browsers for the same major assembly release. The alternate loci are displayed alongside the primary assembly, allowing their annotation to be viewed and compared to the primary.
 
 <iframe  title="Haplotype video" width="480" height="390" src="https://www.youtube.com/watch?v=sPE9j_Hw9HU&ab_channel=EnsemblHelpdesk" frameborder="0" allowfullscreen></iframe>
+
+## Notes on terminology
+The term **haplotype** is used in this context to refer to alternative versions of the genome. This is different to its other use in variant analysis, to refer to a block of variants in linkage disequilibrium. Similarly, we also use the term **allele** to refer to an equivalent gene found on the haplotype or patch compared to the primary assembly, which is different to its use to refer to the possible bases of a variant.
