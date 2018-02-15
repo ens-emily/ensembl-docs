@@ -11,7 +11,7 @@ The Ensembl Regulatory Build ([Zerbino et al. 2015](http://genomebiology.biomedc
 
 ## Overview of the build
 
-(diagram of all the steps in the build)
+![Overview of the regulatory build](regulatory_build.png "Overview of the regulatory build")
 
 ## Computational Steps
 
