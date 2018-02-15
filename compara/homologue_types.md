@@ -2,7 +2,7 @@
 
 Using the Gene Trees, we can infer the following pairwise relationships.
 
-![Homologue types](http://www.ensembl.org/info/genome/compara/tree_example1.png "Homologue types")
+![Homologue types](tree_example1.png "Homologue types")
 
 ## Orthologues
 
@@ -26,7 +26,7 @@ Genes of the same species and related by a duplication event are defined as **pa
 
 We compute a **duplication confidence score** for each duplication node. This is the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) of the sets of species under the two sub-trees. The score is sometimes refered as "species intersection score". 
 
-![Duplication confidence scores](http://www.ensembl.org/info/genome/compara/duplication_confidence_score.merged.41.png "Duplication confidence scores")
+![Duplication confidence scores](duplication_confidence_score.merged.41.png "Duplication confidence scores")
 
 ### Between species paralogues
 
@@ -34,7 +34,7 @@ A between species paralogue corresponds to a relation between genes of different
 
 Such cases can be the results of real duplications followed by gene losses (as shown in the picture below), but most of the times occur as the result of a wrong gene tree topology with a spurious duplication node. Often assembly errors are behind these problems. It is not clear whether these genes are real orthologues or not, but they are the best available candidates (given the data), and we bend the definition of orthology to tag them as orthologues. They are flagged as "non-compliant with the gene tree". People interested in phylogenetic analysis mixing the orthologies and the trees should probably use the set of tree-compliant orthologies. 
 
-![Between species paralogues](http://www.ensembl.org/info/genome/compara/tree_example2.png "Between species paralogues")
+![Between species paralogues](tree_example2.png "Between species paralogues")
 
 ### Gene splits
 
@@ -42,7 +42,7 @@ A paralogue labelled as a gene_split occurs when a gene appears to be broken in 
 
 Right after building the multiple alignment, we detect pairs pairs of genes that lie close to each other (< 1 MB) in the same sequence region and the same strand (see GeneA1/GeneA2 below). They are forced to be paired in the gene trees under gene_split events, and represent our most confident set. When there is no (or little) overlap between the gene fragments in the same species and they lie in different sequence regions in the assembly (see GeneB1/GeneB2 in the image below), we let TreeBeST5 decide their best position in the tree. They are linked by duplication nodes, and have a lower confidence index. 
 
-![Gene split](http://www.ensembl.org/info/genome/compara/gene_split.png "Gene split")
+![Gene split](gene_split.png "Gene split")
 
 ## Confidence scoring
 
