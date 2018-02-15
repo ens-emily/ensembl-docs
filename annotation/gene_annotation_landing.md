@@ -28,3 +28,4 @@ Find out more about the different types of gene annotation used by Ensembl, and 
 * [Transcript tags.](transcript_quality_tags.md)
 * [Gene and transcript types.](biotypes.md)
 * [External references.](xrefs.md)
+* [How gene annotation in Ensembl and RefSeq differs.](refseq_comparison.md)
