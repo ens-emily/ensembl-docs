@@ -2,7 +2,7 @@
 
 Ensembl pulls in links from other gene, transcript, protein and RNA databases to the same features in Ensembl, allowing you to easily navigate to see your genes of interest elsewhere.
 
-We have four methods of mapping between databases. We employ them according to the following priorty:
+We have four methods of mapping between databases. We employ them according to the following priority:
 1. **Direct** We use a third party to agree the mapping between the Ensembl feature and the external feature.
 2. **Location overlap** We match up the genomic location of the feature between Ensembl and the external database.
 3. **Perfect matches** We compare sequences to find perfect matches between databases. This is not done using the sequences themselves, rather using a checksum, which is a shortened code that represents the sequence. The checksum will only match if the sequence match is perfect.
