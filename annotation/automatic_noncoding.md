@@ -37,6 +37,5 @@ lincRNA (Long intergenic non-coding RNAs) Ensembl gene annotation, cDNA alignmen
 References
 
 Guttman M, Amit I, Garber M, French C, Lin MF, Feldser D, Huarte M, Zuk O, Carey BW, Cassady JP, Cabili MN, Jaenisch R, Mikkelsen TS, Jacks T, Hacohen N, Bernstein BE, Kellis M, Regev A, Rinn JL, Lander ES
-Chromatin signature reveals over a thousand highly conserved large non-coding RNAs in mammals.
+[Chromatin signature reveals over a thousand highly conserved large non-coding RNAs in mammals.](http://europepmc.org/articles/PMC2754849)
 Nature 2009 458:223-227
-doi:10.1038/nature07672
