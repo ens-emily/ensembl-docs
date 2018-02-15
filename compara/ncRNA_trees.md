@@ -17,7 +17,7 @@ The ncRNA tree pipeline consists of the following steps:
 8. For very big families, build fast and efficient trees using [FastTree](http://europepmc.org/articles/PMC2835736) and [RAxML-Light](http://sco.h-its.org/exelixis/software.html).
 9. For each family, add the species tree to the set of trees already obtained and reconcile them all using [TreeBeST](http://treesoft.sourceforge.net/treebest.shtml) obtaining one final tree for each family.
 
-![Tree reconcilation](http://www.ensembl.org/info/genome/compara/Tree_reconciliation.png "Tree reconcilation")
+![Tree reconcilation](Tree_reconciliation.png "Tree reconcilation")
 
 ## References
 
