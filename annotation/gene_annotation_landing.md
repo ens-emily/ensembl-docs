@@ -1,6 +1,6 @@
 # Gene annotation in Ensembl
 
-Gene annotation is the plotting of genes onto genome assemblies, and indexing their genomic coordinates.
+Gene annotation is the plotting of genes onto [genome assemblies](genome_assemblies.md), and indexing their genomic coordinates.
 
 Gene annotation provided by Ensembl includes automatic annotation, ie genome-wide determination of transcripts. For selected species (ie human, mouse, zebrafish, pig, rat), gene annotation may also include manual curation, ie reviewed determination of transcripts on a case-by-case basis. Furthermore, Ensembl imports annotation from FlyBase, WormBase and SGD.
 
