@@ -19,7 +19,7 @@ The gene order conservation (GOC) score indicates how many of the four closest n
 6. Now we have two GOC scores for each other. We currently report the maximum of these scores
 
 ### Example comparison
-![Example GOC comparison](http://www.ensembl.org/info/genome/compara/ortholog_qc_goc_thumb.png "Example GOC comparison")
+![Example GOC comparison](ortholog_qc_goc_thumb.png "Example GOC comparison")
 
 Of the four neighbouring genes, three are orthologues and in conserved order and position, resulting in a GOC score of 75%.
 
@@ -37,7 +37,7 @@ The whole genome alignment score calculates the coverage of the alignment over t
 4. An overall score for the homology prediction, as a whole, is computed. This can be defined as the maximum score, after the score for the pair of genes has been averaged for each alignment i.e. we report the average score for the greatest-coverage alignment.
 
 ### Example comparison
-![Example WGA comparison](http://www.ensembl.org/info/genome/compara/ortholog_qc_wga_thumb.png "Example WGA comparison")
+![Example WGA comparison](ortholog_qc_wga_thumb.png "Example WGA comparison")
 
 ### Availability
 This pipeline on run on all LastZ and EPO alignments.
