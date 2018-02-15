@@ -22,6 +22,7 @@ Whole genome alignments are produced, both pairwise alignments and multiple alig
 * [Pairwise alignments](pairwise_genome_alignments.md)
 * [Multiple alignments](multiple_genome_alignment.md)
 * [Ancestral sequences](ancestral_sequences.md)
+* [Age of Base](age_of_base.md)
 * [Conservation scores and constrained elements](conservation_and_constrained.md)
 * [Synteny](synteny.md)
 
