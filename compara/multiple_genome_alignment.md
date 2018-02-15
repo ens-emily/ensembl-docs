@@ -4,17 +4,7 @@ Multiple alignments are calculated between groups of genomes. These are used to 
 
 ## Alignments available
 
-Name | Genomes | Method used
---- | --- | ---
-[31 amniota vertebrates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=1104) | Human, Chimpanzee, Bonobo, Gorilla, Orangutan, Gibbon, Olive baboon, Vervet-AGM, Macaque, Crab-eating macaque, Marmoset, Mouse lemur, Mouse, Algerian mouse, Ryukyu mouse, Shrew mouse, Rat, Prairie vole, Rabbit, Cow, Sheep, Pig, Dog, Cat, Horse, Opossum, Platypus, Chicken, Turkey, Zebra finch, Anole lizard | PECAN
-[5 teleost fish](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=768) | Zebrafish, Medaka, Tetraodon, Stickleback, Spotted gar | EPO
-[12 primates](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=1101) | Human, Gorilla, Chimpanzee, Bonobo, Orangutan, Gibbon, Crab-eating macaque, Macaque, Olive baboon, Vervet-AGM, Marmoset, Mouse lemur  | EPO
-[4 sauropsids](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=825) | Anole lizard, Zebra finch, Chicken, Turkey | EPO
-[25 eutherian mammals](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=1102) | Human, Chimpanzee, Bonobo, Gorilla, Orangutan, Gibbon, Olive baboon, Vervet-AGM, Macaque, Crab-eating macaque, Marmoset, Mouse lemur, Mouse, Algerian mouse, Ryukyu mouse, Shrew mouse, Rat, Prairie vole, Rabbit, Cow, Sheep, Pig, Dog, Cat, Horse | EPO
-[11 fish](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=793) | Zebrafish, Cave fish, Cod, Tilapia, Medaka, Platyfish, Amazon molly, Fugu, Tetraodon, Stickleback, Spotted gar  | EPO_LOW_COVERAGE
-[7 sauropsids](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=826) | Duck, Chicken, Turkey, Chinese softshell turtle, Anole lizard, Zebra finch, Flycatcher | EPO_LOW_COVERAGE
-[67 eutherian mammals](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=1103) | Human, Chimpanzee, Bonobo, Gorilla, Orangutan, Gibbon, Angola colobus, Golden snub-nosed monekey, Black snub-nosed monkey, Pig-tailed macaque, Macaque, Crab-eating macaque, Olive baboon, Vervet-AGM, Sooty mangabey, Drill, Marmoset, Capuchin, Bolivian squirrel monkey, Ma's night monkey, Tarsier, Coquerel's sifaka, Mouse lemur, Bushbaby, Mouse, Algerian mouse, Ryukyu mouse, Shew mouse, Rat, Upper Gallilee mountains blnd mole rat, Chinese hamster CriGri, Chinese hamster CHOK1GS, Golden Hamster, Northern American deer mouse, Prairie vole, Lesser Egyptian jerboa, Kangaroo rat, Long-tailed chinchilla, Guinea pig, Brazilian guinea pig, Degu, Naked mole rate female, Naked mole rat male, Damara mole rat, Squirrel, Pika, Rabbit, Tree shrew, Horse, Dog, Panda, Ferret, Cat, Hedgehog, Shrew, Cow, Sheep, Dolphin, Alpaca, Pig, Microbat, Megabat, Sloth, Armadillo, Lesser hedgehog tenrec, Hyrax, Elephant | EPO_LOW_COVERAGE
-[18 murinae](http://www.ensembl.org/info/genome/compara/mlss.html?mlss=835) | Mouse , Mouse DBA/2J, Mouse CAST/EiJ, Mouse C57BL/6NJ, Mouse C3H/HeJ, Mouse WSB/EiJ, Mouse A/J, Mouse BALB/cJ, Mouse LP/J, Mouse NOD/ShiLtJ, Mouse 129S1/SvImJ, Mouse CBA/J, Mouse AKR/J, Mouse NZO/HlLtJ, Mouse FVB/NJ, Mouse PWK/PhJ, Mouse SPRET/EiJ, Rat  | Cactus alignment
+[[SCRIPT::EnsEMBL::Web::Document::HTML::Compara::format_wga_table()]]
 
 ## Alignment methods
 
