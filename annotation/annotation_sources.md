@@ -29,4 +29,4 @@ Known miRNAs from the annotation of Non-coding RNAs process must have a match in
 
 ## Manual annotation sources
 
-Manual gene annotation can use other sources, including publications.
+[Manual gene annotation](manual_havana.md) can use other sources, including publications.
