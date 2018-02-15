@@ -37,7 +37,7 @@ Otherwise we have a split/join situation and iterate through the "contributors" 
 
 In this example diagram:
 
-![Stable ID mapping](http://www.ensembl.org/info/genome/compara/compara_stable_id_mapping.png "Stable ID mapping")
+![Stable ID mapping](compara_stable_id_mapping.png "Stable ID mapping")
 
 D1 is an EXACT reuse (cyan contributor)
 A2 inherits the name from A1 according to the MAJORITY rule (light red contributor)
