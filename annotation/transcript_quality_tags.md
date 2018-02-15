@@ -37,7 +37,7 @@ The following categories are assigned to each of the evaluated annotations:
 
 ## APPRIS
 
-APPRIS is a system to annotate alternatively spliced transcripts based on a range of computational methods. It provides value to the annotations of the human, mouse, zebrafish, rat, and pig genomes. (http://nar.oxfordjournals.org/content/41/D1/D110.long).
+APPRIS is a system to annotate alternatively spliced transcripts based on a range of computational methods. It provides value to the annotations of the human, mouse, zebrafish, rat, and pig genomes ([Rodriguez *et al*, 2012](http://europepmc.org/abstract/MED/23161672).
 
 APPRIS has selected a single CDS variant for each gene as the 'PRINCIPAL' isoform. Principal isoforms are tagged with the numbers 1 to 5, with 1 being the most reliable.
 
