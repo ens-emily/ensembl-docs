@@ -2,7 +2,7 @@
 
 ## Protein coding genes
 
-The automatically annotated Ensembl coding transcripts are based on mRNA and protein from the following databases. If you do not find a transcript that you expected in Ensembl, make sure there is sequence submitted into these databases. If the sequence is missing, consider submitting your experimental evidence to [ENA](http://www.ebi.ac.uk/ena).
+The [automatically annotated Ensembl coding transcripts](automatic_coding.md) are based on mRNA and protein from the following databases. If you do not find a transcript that you expected in Ensembl, make sure there is sequence submitted into these databases. If the sequence is missing, consider submitting your experimental evidence to [ENA](http://www.ebi.ac.uk/ena).
 
 
 | Source | About |
